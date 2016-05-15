@@ -38,7 +38,7 @@ const VIRUS_NO = 0;
 const THREAT_NO = 0;
 const PREY_NO = 0;
 
-const DIRECTION_COUNT = 8;
+const DIRECTION_COUNT = 4;
 
 function QBot() {
     PlayerTracker.apply(this, Array.prototype.slice.call(arguments));
@@ -65,13 +65,13 @@ function QBot() {
     var spec = {
         update: 'qlearn',
         gamma: 0.9,
-        epsilon: 0.02,
-        alpha: 0.01,
+        epsilon: 0.2,
+        alpha: 0.1,
         experience_add_every: 10,
         experience_size: 5000,
         learning_steps_per_iteration: 20,
         tderror_clamp: 1.0,
-        num_hidden_units: 6,
+        num_hidden_units: 2,
         activation_function: 3
     };
     this.agent;
@@ -85,10 +85,10 @@ function QBot() {
     }
 
     // Report the important information to REPORT_FILE
-    // fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
+     fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
     var date = new Date();
-    // fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tAngle\n\t\tDistanceX\nnActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n\t\tSpeed\n");
-    // fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
+     fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tX Difference\n\t\tY Difference\nnActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n\t\tSpeed\n");
+     fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
     fs.appendFile(REPORT_FILE, "\nTrial No: "+ trial++ +"\n\tBirth: "+date+"\n");
 
     this.shouldUpdateQNetwork = false;
@@ -232,11 +232,12 @@ QBot.prototype.decide = function(cell) {
     var qList = []; //[1-(Math.abs(cell.position.x - 3000)/3000.0), 1-(Math.abs(cell.position.y - 3000)/3000.0)];
     for ( var i = 0; i < FOOD_NO; i++){
         if ( nearbyFoods != null && i < nearbyFoods.length ){
-            var foodStateVector = this.getStateVectorFromLocation(cell, nearbyFoods[i]);
-            //var foodDistanceVector = this.getDistanceVector(cell,nearbyFoods[i]);
+            //var foodStateVector = this.getStateVectorFromLocation(cell, nearbyFoods[i]);
+            var foodDistanceVector = this.getDistanceVector(cell,nearbyFoods[i]);
             //var foodEnabler = 1;
-            //qList.push((foodDistanceVector.x/MAX_X), (foodDistanceVector.y/MAX_Y));
-            qList.push(foodStateVector.direction/MAX_ANGLE, foodStateVector.distance/MAX_DISTANCE);
+            qList.push((foodDistanceVector.x/MAX_X), (foodDistanceVector.y/MAX_Y));
+            console.log(qList);
+            //qList.push(foodStateVector.direction/MAX_ANGLE, foodStateVector.distance/MAX_DISTANCE);
         }
     }
     //console.log(qList);
