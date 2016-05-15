@@ -38,7 +38,7 @@ const VIRUS_NO = 0;
 const THREAT_NO = 0;
 const PREY_NO = 0;
 
-const DIRECTION_COUNT = 4;
+const DIRECTION_COUNT = 8;
 
 function QBot() {
     PlayerTracker.apply(this, Array.prototype.slice.call(arguments));
@@ -65,8 +65,8 @@ function QBot() {
     var spec = {
         update: 'qlearn',
         gamma: 0.9,
-        epsilon: 0.02,
-        alpha: 0.01,
+        epsilon: 0.2,
+        alpha: 0.1,
         experience_add_every: 10,
         experience_size: 5000,
         learning_steps_per_iteration: 20,
