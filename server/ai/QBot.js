@@ -14,7 +14,7 @@ const JSON_FILE = "./server/ai/json";
 const REPORT_FILE = "./server/ai/Reports/report1.txt";
 
 // Number of tries till the cell gets to the TRIAL_RESET_MASS
-var trial = 55;
+var trial = 1;
 
 // Server will be restarted when the cell's mass is equal to this.
 const TRIAL_RESET_MASS = 100;
