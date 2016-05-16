@@ -131,8 +131,8 @@ QBot.prototype.update = function() {
     if (this.cells.length <= 0) {
 
         if ( this.shouldUpdateQNetwork ){
-
-            this.agent.learn(1);
+            fs.appendFile(REPORT_FILE, "Killed");
+            this.agent.learn(-1*this.previousMass);
             this.shouldUpdateQNetwork = false;
             var json = this.agent.toJSON();
             fs.writeFile(JSON_FILE, JSON.stringify(json, null, 4));
@@ -163,27 +163,9 @@ QBot.prototype.update = function() {
     var cell = this.getBiggestCell();
     this.clearLists();
 
-    // Learn till the mass is equal to Reset Mass
-    if ( cell.mass > TRIAL_RESET_MASS){
-        CommandList.list.killall(this.gameServer,0);
-        return;
-    }
-
     // Assign Preys, Threats, Viruses & Foods
     this.updateLists(cell);
-
-    this.food.sort(function(a,b){
-        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
-    });
-    this.prey.sort(function(a,b){
-        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
-    });
-    this.threats.sort(function(a,b){
-        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
-    });
-    this.virus.sort(function(a,b){
-        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
-    });
+    this.sortLists(cell);
 
     // Action
     if ( this.shouldUpdateQNetwork ){
@@ -193,6 +175,13 @@ QBot.prototype.update = function() {
         var json = this.agent.toJSON();
         fs.writeFile(JSON_FILE, JSON.stringify(json, null, 4));
     }
+
+    // Learn till the mass is equal to Reset Mass
+    if ( cell.mass > TRIAL_RESET_MASS){
+        CommandList.list.killall(this.gameServer,0);
+        return;
+    }
+
 
     this.decide(cell);
 
@@ -403,6 +392,21 @@ QBot.prototype.updateLists = function(cell){
         }
     }
 };
+
+QBot.prototype.sortLists = function(cell){
+    this.food.sort(function(a,b){
+        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
+    });
+    this.prey.sort(function(a,b){
+        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
+    });
+    this.threats.sort(function(a,b){
+        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
+    });
+    this.virus.sort(function(a,b){
+        return QBot.prototype.getDist(cell,a) - QBot.prototype.getDist(cell,b);
+    });
+}
 
 // Returns Direction from Location
 QBot.prototype.getDirectionFromLocation = function(cell, check){
