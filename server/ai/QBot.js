@@ -129,8 +129,8 @@ QBot.prototype.update = function() {
     if (this.cells.length <= 0) {
 
         if ( this.shouldUpdateQNetwork ){
-            console.log("Updating DQN because of Dying");
-            this.agent.learn(-0.1*this.previousMass);
+            console.log("Killed");
+            this.agent.learn(-1*this.previousMass);
             this.shouldUpdateQNetwork = false;
             var json = this.agent.toJSON();
             fs.writeFile(JSON_FILE, JSON.stringify(json, null, 4));
@@ -178,15 +178,17 @@ QBot.prototype.update = function() {
     // Learn till the mass is equal to Reset Mass
     if ( cell.mass > TRIAL_RESET_MASS){
         CommandList.list.killall(this.gameServer,0);
-    }else{
-        this.decide(cell);
-
-        // Now update mouse
-        this.mouse = {
-            x: this.targetPos.x,
-            y: this.targetPos.y
-        };
+        return;
     }
+
+    this.decide(cell);
+
+    // Now update mouse
+    this.mouse = {
+        x: this.targetPos.x,
+        y: this.targetPos.y
+    };
+
 
     // Reset queues
     this.nodeDestroyQueue = [];
@@ -229,8 +231,6 @@ QBot.prototype.decide = function(cell){
             qList.push(1);
         }
     }
-
-    console.log(qList);
 
     var actionNumber = this.agent.act(qList);
     this.shouldUpdateQNetwork = true;
