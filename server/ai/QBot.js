@@ -65,8 +65,8 @@ function QBot() {
     var spec = {
         update: 'qlearn',
         gamma: 0.9,
-        epsilon: 0.2,
-        alpha: 0.1,
+        epsilon: 0.02,
+        alpha: 0.01,
         experience_add_every: 10,
         experience_size: 5000,
         learning_steps_per_iteration: 20,
