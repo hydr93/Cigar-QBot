@@ -27,7 +27,7 @@ const MAX_DISTANCE = 1450.0;
 const MAX_X = 1024;
 const MAX_Y = 1024;
 
-const RANGE = 200;
+const RANGE = 500;
 
 // Maximum Angle :)
 const MAX_ANGLE = Math.PI;
@@ -221,8 +221,10 @@ QBot.prototype.decide = function(cell){
                     //if ( cell.mass < nearby[i].mass){
                     //    massRatio = -massRatio;
                     //}
-
-                    qList.push((distance/RANGE));
+                    var annRange = distance / RANGE;
+                    if (annRange > 1 )
+                        console.log("ERROR AT RANGE ASSIGN!");
+                    qList.push(annRange);
                 }else{
                     qList.push(1);
                 }
