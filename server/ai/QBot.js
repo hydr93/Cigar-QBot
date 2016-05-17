@@ -401,7 +401,7 @@ QBot.prototype.reward = function () {
     for ( var i = 0 ; i < this.cells.length ; i++){
         currentMass += this.cells[i].mass;
     }
-    var result = currentMass = this.previousMass;
+    var result = currentMass - this.previousMass;
     this.previousMass = currentMass;
     return result;
 };
