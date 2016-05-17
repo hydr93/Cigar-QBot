@@ -14,7 +14,7 @@ const JSON_FILE = "./server/ai/json";
 const REPORT_FILE = "./server/ai/Reports/report1.txt";
 
 // Number of tries till the cell gets to the TRIAL_RESET_MASS
-var trial = 21;
+var trial = 1;
 
 // Server will be restarted when the cell's mass is equal to this.
 const TRIAL_RESET_MASS = 100;
@@ -27,7 +27,7 @@ const MAX_DISTANCE = 1450.0;
 const MAX_X = 1024;
 const MAX_Y = 1024;
 
-const RANGE = 500;
+const RANGE = 1450;
 
 // Maximum Angle :)
 const MAX_ANGLE = Math.PI;
