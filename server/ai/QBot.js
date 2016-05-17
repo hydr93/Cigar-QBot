@@ -14,7 +14,7 @@ const JSON_FILE = "./server/ai/json";
 const REPORT_FILE = "./server/ai/Reports/report1.txt";
 
 // Number of tries till the cell gets to the TRIAL_RESET_MASS
-var trial = 1;
+var trial = 21;
 
 // Server will be restarted when the cell's mass is equal to this.
 const TRIAL_RESET_MASS = 100;
@@ -82,11 +82,11 @@ function QBot() {
     }
 
     // Report the important information to REPORT_FILE
-    fs.appendFile(REPORT_FILE, "Test 1:\n\nNumber of States: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Layers: "+spec.num_hidden_units+" "+"\n");
+    //fs.appendFile(REPORT_FILE, "Test 1:\n\nNumber of States: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Layers: "+spec.num_hidden_units+" "+"\n");
     var date = new Date();
     //fs.appendFile(REPORT_FILE, "\nStates:\n\tMy Location\n\t\tX\n\t\tY\n\t\tMass\n\t"+ DIRECTION_COUNT +" Directions\n\t\tCell Type\n\t\tDistance\n\t\tMass Ratio\nActions:\n\tWalk\n\t\t8 Directions\n\t\t3 Speed\n");
-    fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ DIRECTION_COUNT +" Directions\n\t\tDistance\nActions:\n\tWalk\n\t\t8 Directions");
-    fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
+    //fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ DIRECTION_COUNT +" Directions\n\t\tDistance\nActions:\n\tWalk\n\t\t8 Directions");
+    //fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
     fs.appendFile(REPORT_FILE, "\nTrial No: "+ trial++ +"\n\tBirth: "+date+"\n");
 
     this.shouldUpdateQNetwork = false;

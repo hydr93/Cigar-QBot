@@ -1,0 +1,159 @@
+
+States:
+	8 Directions
+		Distance
+Actions:
+	Walk
+		8 DirectionsTest 1:
+
+Number of States: 27
+Number of Actions: 8
+Number of Hidden Layers: 16 
+
+Trial Reset Mass: 100
+
+Trial No: 1
+	Birth: Tue May 17 2016 14:20:10 GMT+0300 (Turkey Daylight Time)
+    Death: Tue May 17 2016 14:26:01 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 2
+	Birth: Tue May 17 2016 14:26:01 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:28:35 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 3
+	Birth: Tue May 17 2016 14:28:35 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:42:10 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 4
+	Birth: Tue May 17 2016 14:42:10 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:43:30 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 5
+	Birth: Tue May 17 2016 14:43:30 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:46:51 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 6
+	Birth: Tue May 17 2016 14:46:51 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:48:10 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 7
+	Birth: Tue May 17 2016 14:48:10 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:49:55 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 8
+	Birth: Tue May 17 2016 14:49:55 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:50:49 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 9
+	Birth: Tue May 17 2016 14:50:49 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:52:54 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 10
+	Birth: Tue May 17 2016 14:52:54 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 14:54:30 GMT+0300 (Turkey Daylight Time) with Size: 102
+
+Trial No: 11
+	Birth: Tue May 17 2016 15:53:02 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 15:54:56 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 12
+	Birth: Tue May 17 2016 15:54:56 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:01:36 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 13
+	Birth: Tue May 17 2016 16:01:36 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:05:44 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 14
+	Birth: Tue May 17 2016 16:05:44 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:16:44 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 15
+	Birth: Tue May 17 2016 16:16:44 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:18:34 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 16
+	Birth: Tue May 17 2016 16:18:34 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:20:14 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 17
+	Birth: Tue May 17 2016 16:20:14 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:22:14 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 18
+	Birth: Tue May 17 2016 16:22:14 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:29:41 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 19
+	Birth: Tue May 17 2016 16:29:41 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:39:25 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 20
+	Birth: Tue May 17 2016 16:39:25 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 16:40:47 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 21
+	Birth: Tue May 17 2016 16:40:47 GMT+0300 (Turkey Daylight Time)
+
+Trial No: 21
+	Birth: Tue May 17 2016 17:07:59 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:10:59 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 22
+	Birth: Tue May 17 2016 17:10:59 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:13:33 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 23
+	Birth: Tue May 17 2016 17:13:33 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:16:52 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 24
+	Birth: Tue May 17 2016 17:16:52 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:20:19 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 25
+	Birth: Tue May 17 2016 17:20:19 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:25:31 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 26
+	Birth: Tue May 17 2016 17:25:31 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:29:10 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 27
+	Birth: Tue May 17 2016 17:29:10 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:33:56 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 28
+	Birth: Tue May 17 2016 17:33:56 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:37:49 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 29
+	Birth: Tue May 17 2016 17:37:49 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 17:45:09 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 30
+	Birth: Tue May 17 2016 17:45:09 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 18:30:27 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 31
+	Birth: Tue May 17 2016 18:30:27 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 19:27:53 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 32
+	Birth: Tue May 17 2016 19:27:53 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 19:29:58 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 33
+	Birth: Tue May 17 2016 19:29:58 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 19:30:52 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 34
+	Birth: Tue May 17 2016 19:30:52 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 19:31:43 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 35
+	Birth: Tue May 17 2016 19:31:43 GMT+0300 (Turkey Daylight Time)
+	Death: Tue May 17 2016 19:41:33 GMT+0300 (Turkey Daylight Time) with Size: 101
+
+Trial No: 36
+	Birth: Tue May 17 2016 19:41:33 GMT+0300 (Turkey Daylight Time)
