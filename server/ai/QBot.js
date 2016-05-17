@@ -33,12 +33,12 @@ const MAX_ANGLE = Math.PI;
 // Maximum Mass Difference between two cells.
 const MAX_MASS_DIFFERENCE = 20;
 
-const FOOD_NO = 1;
+const FOOD_NO = 5;
 const VIRUS_NO = 0;
 const THREAT_NO = 0;
 const PREY_NO = 0;
 
-const DIRECTION_COUNT = 8;
+const DIRECTION_COUNT = 4;
 
 function QBot() {
     PlayerTracker.apply(this, Array.prototype.slice.call(arguments));
@@ -60,18 +60,18 @@ function QBot() {
 
     // Initialize DQN Environment
     var env = {};
-    env.getNumStates = function() { return (2*FOOD_NO + 4*VIRUS_NO + 4*THREAT_NO + 4*PREY_NO);};
+    env.getNumStates = function() { return (3*FOOD_NO + 4*VIRUS_NO + 4*THREAT_NO + 4*PREY_NO);};
     env.getMaxNumActions = function() {return DIRECTION_COUNT;}
     var spec = {
         update: 'qlearn',
         gamma: 0.9,
-        epsilon: 0.02,
-        alpha: 0.01,
+        epsilon: 0.2,
+        alpha: 0.1,
         experience_add_every: 10,
         experience_size: 5000,
         learning_steps_per_iteration: 20,
         tderror_clamp: 1.0,
-        num_hidden_units: 8,
+        num_hidden_units: 20,
         activation_function: 1
     };
     this.agent;
@@ -87,7 +87,7 @@ function QBot() {
     // Report the important information to REPORT_FILE
     fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
     var date = new Date();
-    fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tX Difference\n\t\tY Difference\nnActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n\t\tSpeed\n");
+    fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tX Difference\n\t\tY Difference\nActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n\t\tSpeed\n");
     fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
     fs.appendFile(REPORT_FILE, "\nTrial No: "+ trial++ +"\n\tBirth: "+date+"\n");
 
@@ -214,25 +214,22 @@ QBot.prototype.decide = function(cell) {
 
     // Find Nearby N Foods
     var nearbyFoods = this.findNearby(cell,this.food,FOOD_NO);
-    if ( nearbyFoods == null || nearbyFoods.length == 0){
-        CommandList.list.killall(this.gameServer,0);
-        return;
-    }
-    var qList = []; //[1-(Math.abs(cell.position.x - 3000)/3000.0), 1-(Math.abs(cell.position.y - 3000)/3000.0)];
+    
+    var qList = [];
     for ( var i = 0; i < FOOD_NO; i++){
         if ( nearbyFoods != null && i < nearbyFoods.length ){
             //var foodStateVector = this.getStateVectorFromLocation(cell, nearbyFoods[i]);
             var foodDistanceVector = this.getDistanceVector(cell,nearbyFoods[i]);
-            //var foodEnabler = 1;
-            qList.push((foodDistanceVector.x/MAX_X), (foodDistanceVector.y/MAX_Y));
+            var foodEnabler = 1;
+            qList.push(foodEnabler,(foodDistanceVector.x/MAX_X), (foodDistanceVector.y/MAX_Y));
             //qList.push(foodStateVector.direction/MAX_ANGLE, foodStateVector.distance/MAX_DISTANCE);
+        }else{
+            qList.push(0, 0, 0);
         }
     }
-    //console.log(qList);
-    if ( qList.length == 0){
-        return;
+    if ( qList.length != 3*FOOD_NO){
+        console.log("ERROR!");
     }
-
     //// Find Nearby N Viruses
     //var nearbyViruses = this.findNearby(cell,this.virus,VIRUS_NO);
     //for ( var i = 0; i < VIRUS_NO; i++){
