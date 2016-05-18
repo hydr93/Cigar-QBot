@@ -11,13 +11,13 @@ var Reinforce = require("Reinforcejs");
 var fs = require("fs");
 const JSON_FILE = "./server/ai/json";
 
-const REPORT_FILE = "./server/ai/Reports/report2.txt";
+const REPORT_FILE = "./server/ai/Reports/report1.txt";
 
 // Number of tries till the cell gets to the TRIAL_RESET_MASS
-var trial = 151;
+var trial = 1;
 
 // Server will be restarted when the cell's mass is equal to this.
-const TRIAL_RESET_MASS = 100;
+const TRIAL_RESET_MASS = 500;
 
 // Maximum Speed a cell can have
 const MAX_SPEED = 150.0;
@@ -33,10 +33,10 @@ const MAX_ANGLE = Math.PI;
 // Maximum Mass Difference between two cells.
 const MAX_MASS_DIFFERENCE = 20;
 
-const FOOD_NO = 5;
+const FOOD_NO = 1;
 const VIRUS_NO = 0;
-const THREAT_NO = 0;
-const PREY_NO = 0;
+const THREAT_NO = 1;
+const PREY_NO = 1;
 
 const DIRECTION_COUNT = 4;
 
@@ -60,18 +60,18 @@ function QBot() {
 
     // Initialize DQN Environment
     var env = {};
-    env.getNumStates = function() { return (3*FOOD_NO + 4*VIRUS_NO + 4*THREAT_NO + 4*PREY_NO);};
+    env.getNumStates = function() { return (3*FOOD_NO + 3*THREAT_NO + 3*PREY_NO)+0;};
     env.getMaxNumActions = function() {return DIRECTION_COUNT;}
     var spec = {
         update: 'qlearn',
         gamma: 0.9,
-        epsilon: 0.02,
-        alpha: 0.01,
+        epsilon: 0.2,
+        alpha: 0.1,
         experience_add_every: 10,
         experience_size: 5000,
         learning_steps_per_iteration: 20,
         tderror_clamp: 1.0,
-        num_hidden_units: 20,
+        num_hidden_units: 36,
         activation_function: 1
     };
     this.agent;
@@ -85,10 +85,10 @@ function QBot() {
     }
 
     // Report the important information to REPORT_FILE
-    //fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
+    fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
     var date = new Date();
-    //fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tX Difference\n\t\tY Difference\nActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n\t\tSpeed\n");
-    //fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
+    fs.appendFile(REPORT_FILE, "\nStates:\n\tPosition\n\t\tX\n\t\tY\n\t"+ FOOD_NO +" Food\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\n\t"+ THREAT_NO +" Threat\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\n\t"+ PREY_NO +" Prey\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\nActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n");
+    fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
     fs.appendFile(REPORT_FILE, "\nTrial No: "+ trial++ +"\n\tBirth: "+date+"\n");
 
     this.shouldUpdateQNetwork = false;
@@ -131,7 +131,7 @@ QBot.prototype.update = function() {
     if (this.cells.length <= 0) {
 
         if ( this.shouldUpdateQNetwork ){
-            fs.appendFile(REPORT_FILE, "Killed");
+            fs.appendFile(REPORT_FILE, "Killed\n");
             this.agent.learn(-1*this.previousMass);
             this.shouldUpdateQNetwork = false;
             var json = this.agent.toJSON();
@@ -212,67 +212,54 @@ QBot.prototype.clearLists = function() {
 //Decides the action of player
 QBot.prototype.decide = function(cell) {
 
+    // var qList = [cell.position.x/6000,cell.position.y/6000];
+    var qList = [];
+
     // Find Nearby N Foods
     var nearbyFoods = this.findNearby(cell,this.food,FOOD_NO);
-    
-    var qList = [];
     for ( var i = 0; i < FOOD_NO; i++){
         if ( nearbyFoods != null && i < nearbyFoods.length ){
-            //var foodStateVector = this.getStateVectorFromLocation(cell, nearbyFoods[i]);
             var foodDistanceVector = this.getDistanceVector(cell,nearbyFoods[i]);
             var foodEnabler = 1;
             qList.push(foodEnabler,(foodDistanceVector.x/MAX_X), (foodDistanceVector.y/MAX_Y));
+
+
+            //var foodStateVector = this.getStateVectorFromLocation(cell, nearbyFoods[i]);
             //qList.push(foodStateVector.direction/MAX_ANGLE, foodStateVector.distance/MAX_DISTANCE);
         }else{
             qList.push(0, 0, 0);
         }
     }
-    if ( qList.length != 3*FOOD_NO){
+
+    // Find Nearby N Preys
+    var nearbyPreys = this.findNearby(cell,this.prey,PREY_NO);
+    for ( var i = 0; i < PREY_NO; i++){
+        if ( nearbyPreys != null && i < nearbyPreys.length ){
+            var preyDistanceVector = this.getDistanceVector(cell,nearbyPreys[i]);
+            var preyEnabler = 1;
+            qList.push(preyEnabler,(preyDistanceVector.x/MAX_X), (preyDistanceVector.y/MAX_Y));
+        }else{
+            qList.push(0,0,0);
+        }
+    }
+
+    // Find Nearby N Threats
+    var nearbyThreats = this.findNearby(cell,this.threats,THREAT_NO);
+    for ( var i = 0; i < THREAT_NO; i++){
+        if ( nearbyThreats != null && i < nearbyThreats.length ){
+            var threatDistanceVector = this.getDistanceVector(cell,nearbyThreats[i]);
+            var threatEnabler = 1;
+            qList.push(threatEnabler,(threatDistanceVector.x/MAX_X), (threatDistanceVector.y/MAX_Y));
+        }else{
+            qList.push(0,0,0);
+        }
+    }
+
+    if ( qList.length != (3*(FOOD_NO+THREAT_NO+PREY_NO))+0){
         console.log("ERROR!");
     }
-    //// Find Nearby N Viruses
-    //var nearbyViruses = this.findNearby(cell,this.virus,VIRUS_NO);
-    //for ( var i = 0; i < VIRUS_NO; i++){
-    //    if ( nearbyViruses != null && i < nearbyViruses.length){
-    //        var virusStateVector = this.getStateVectorFromLocation(cell,nearbyViruses[i]);
-    //        var virusEnabler = 1;
-    //        qList.push(virusEnabler,(((virusStateVector.direction/MAX_ANGLE)+1)/2.0),virusStateVector.distance/MAX_DISTANCE,  this.compareCellWithVirus(cell,nearbyViruses[i]));
-    //    }else{
-    //        qList.push(-1,-1,-1,0);
-    //    }
-    //}
-    //
-    //// Find Nearby N Preys
-    //var nearbyPreys = this.findNearby(cell,this.prey,PREY_NO);
-    //for ( var i = 0; i < PREY_NO; i++){
-    //    if ( nearbyPreys != null && i < nearbyPreys.length ){
-    //        var preyStateVector = this.getStateVectorFromLocation(cell,nearbyPreys[i]);
-    //        var preyEnabler = 1;
-    //        var preyMassDifference = this.getMassDifference(cell,nearbyPreys[i]);
-    //        qList.push(preyEnabler,(((preyStateVector.direction/MAX_ANGLE)+1)/2.0),preyStateVector.distance/MAX_DISTANCE,preyMassDifference/MAX_MASS_DIFFERENCE);
-    //    }else{
-    //        qList.push(-1,-1,-1,0);
-    //    }
-    //}
-    //
-    //// Find Nearby N Threats
-    //var nearbyThreats = this.findNearby(cell,this.threats,THREAT_NO);
-    //for ( var i = 0; i < THREAT_NO; i++){
-    //    if ( nearbyThreats != null && i < nearbyThreats.length ){
-    //        var threatsStateVector = this.getStateVectorFromLocation(cell,nearbyThreats[i]);
-    //        var threatsEnabler = 1;
-    //        var threatMassDifference = this.getMassDifference(cell,nearbyThreats[i]);
-    //        qList.push(threatsEnabler,(((threatsStateVector.direction/MAX_ANGLE)+1)/2.0),threatsStateVector.distance/MAX_DISTANCE,threatMassDifference/MAX_MASS_DIFFERENCE);
-    //    }else{
-    //        qList.push(-1,-1,-1,0);
-    //    }
-    //}
-    this.currentState = qList;
-    var actionNumber = this.agent.act(qList);
 
-    var totalMass = 0;
-    for ( var i = 0 ; i < this.cells.length ; i++)
-        totalMass += this.cells[i].mass;
+    var actionNumber = this.agent.act(qList);
 
     var action = this.decodeAction(actionNumber);
     var targetLocation = this.getLocationFromAction(cell, action);
@@ -376,12 +363,16 @@ QBot.prototype.updateLists = function(cell){
                 break;
             case 2: // Virus
                 if (!check.isMotherCell) {
+                    if (check.mass > (cell.mass * 1.33)) {
+                        this.threats.push(check);
+                    }
                     this.virus.push(check);
                 } // Only real viruses! No mother cells
                 break;
             case 3: // Ejected mass
-                if (cell.mass > 20) {
-                    this.food.push(check);
+                if (cell.mass > (check.mass * 1.33)) {
+                    // Add to prey list
+                    this.prey.push(check);
                 }
                 break;
             default:

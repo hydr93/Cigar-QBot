@@ -245,13 +245,15 @@ PlayerTracker.prototype.calcViewBox = function() {
 PlayerTracker.prototype.getSpectateNodes = function() {
     var specPlayer;
 
-    if (this.gameServer.getMode().specByLeaderboard) {
-        this.spectatedPlayer = Math.min(this.gameServer.leaderboard.length - 1, this.spectatedPlayer);
-        specPlayer = this.spectatedPlayer == -1 ? null : this.gameServer.leaderboard[this.spectatedPlayer];
-    } else {
-        this.spectatedPlayer = Math.min(this.gameServer.clients.length - 1, this.spectatedPlayer);
-        specPlayer = this.spectatedPlayer == -1 ? null : this.gameServer.clients[this.spectatedPlayer].playerTracker;
-    }
+    // if (this.gameServer.getMode().specByLeaderboard) {
+    //     this.spectatedPlayer = Math.min(this.gameServer.leaderboard.length - 1, this.spectatedPlayer);
+    //     specPlayer = this.spectatedPlayer == -1 ? null : this.gameServer.leaderboard[this.spectatedPlayer];
+    // } else {
+    //     this.spectatedPlayer = Math.min(this.gameServer.clients.length - 1, this.spectatedPlayer);
+    //     specPlayer = this.spectatedPlayer == -1 ? null : this.gameServer.clients[this.spectatedPlayer].playerTracker;
+    // }
+
+    specPlayer = this.gameServer.clients[0].playerTracker;
 
     if (specPlayer) {
         // If selected player has died/disconnected, switch spectator and try again next tick

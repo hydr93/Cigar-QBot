@@ -280,19 +280,19 @@ BotPlayer.prototype.decide = function(cell) {
 
             var massReq = 1.25 * (this.target.mass * 2 ); // Mass required to splitkill the target
 
-            if ((cell.mass > massReq) && (this.cells.length == 1)) { // Will not split into more than 2 cells
-                var splitDist = (4 * (cell.getSpeed() * 5)) + (cell.getSize() * 1.75); // Distance needed to splitkill
-                var distToTarget = this.getAccDist(cell,this.target); // Distance between the target and this cell
-
-                if (splitDist >= distToTarget) {
-                    if ((this.threats.length > 0) && (this.getBiggest(this.threats).mass > (1.25 * (cell.mass/2)))) {
-                        // Dont splitkill when they are cells that can possibly eat you after the split
-                        break;
-                    }
-                    // Splitkill
-                    this.gameServer.splitCells(this);
-                }
-            }
+            // if ((cell.mass > massReq) && (this.cells.length == 1)) { // Will not split into more than 2 cells
+            //     var splitDist = (4 * (cell.getSpeed() * 5)) + (cell.getSize() * 1.75); // Distance needed to splitkill
+            //     var distToTarget = this.getAccDist(cell,this.target); // Distance between the target and this cell
+            //
+            //     if (splitDist >= distToTarget) {
+            //         if ((this.threats.length > 0) && (this.getBiggest(this.threats).mass > (1.25 * (cell.mass/2)))) {
+            //             // Dont splitkill when they are cells that can possibly eat you after the split
+            //             break;
+            //         }
+            //         // Splitkill
+            //         this.gameServer.splitCells(this);
+            //     }
+            // }
             break;
         case 4: // Shoot virus
             if ((!this.target) || (!this.targetVirus) ||(!this.cells.length == 1) || (this.visibleNodes.indexOf(this.target) == -1) || (this.visibleNodes.indexOf(this.targetVirus) == -1)) {
@@ -323,10 +323,10 @@ BotPlayer.prototype.decide = function(cell) {
                 // In position!
                 this.mouse = {x: this.targetVirus.position.x, y: this.targetVirus.position.y};
 
-                // Shoot
-                for (var v = 0; v < 7 ;v++) {
-                    this.gameServer.ejectMass(this);
-                }
+                    // // Shoot
+                    // for (var v = 0; v < 7 ;v++) {
+                    //     this.gameServer.ejectMass(this);
+                    // }
 
                 // Back to starting pos
                 this.mouse = {x: cell.position.x, y: cell.position.y};

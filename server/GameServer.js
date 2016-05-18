@@ -568,7 +568,9 @@ GameServer.prototype.spawnPlayer = function(player, pos, mass) {
     if (playerName == "") playerName = "An unnamed cell";
 
     if (this.config.serverLogLevel == 1) {
-        console.log("\u001B[33m[Game:" + this.realmID + "]\u001B[0m " + playerName + " has spawned.");
+        if (playerName == 'QBot'){
+            console.log("\u001B[33m[Game:" + this.realmID + "]\u001B[0m " + playerName + " has spawned.");
+        }
     }
 };
 
