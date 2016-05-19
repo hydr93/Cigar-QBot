@@ -1,0 +1,5092 @@
+
+States:
+	1 Food
+		Enable
+		X Difference
+		Y Difference
+	1 Threat
+		Enable
+		X Difference
+		Y Difference
+	1 Prey
+		Enable
+		X Difference
+		Y Difference
+Actions:
+	Walk
+		4 Directions
+Test 1, No Virus, No Enemy:
+
+Number of Inputs: 9
+Number of Actions: 4
+Number of Hidden Units: 36
+
+Trial Reset Mass: 500
+
+Trial No: 1
+	Birth: Wed May 18 2016 17:35:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:35:46 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 2
+	Birth: Wed May 18 2016 17:35:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:35:59 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 3
+	Birth: Wed May 18 2016 17:35:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:36:05 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 4
+	Birth: Wed May 18 2016 17:36:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:36:13 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 5
+	Birth: Wed May 18 2016 17:36:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:36:19 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 6
+	Birth: Wed May 18 2016 17:36:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:36:23 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 7
+	Birth: Wed May 18 2016 17:36:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:37:56 GMT+0300 (Turkey Daylight Time) with Size: 33
+
+Trial No: 8
+	Birth: Wed May 18 2016 17:37:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:38:04 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 9
+	Birth: Wed May 18 2016 17:38:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:38:14 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 10
+	Birth: Wed May 18 2016 17:38:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:38:21 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 11
+	Birth: Wed May 18 2016 17:38:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:38:36 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 12
+	Birth: Wed May 18 2016 17:38:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:38:40 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 13
+	Birth: Wed May 18 2016 17:38:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:39:31 GMT+0300 (Turkey Daylight Time) with Size: 59
+
+Trial No: 14
+	Birth: Wed May 18 2016 17:39:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:39:43 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 15
+	Birth: Wed May 18 2016 17:39:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:40:06 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 16
+	Birth: Wed May 18 2016 17:40:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:40:17 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 17
+	Birth: Wed May 18 2016 17:40:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:40:23 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 18
+	Birth: Wed May 18 2016 17:40:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:40:38 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 19
+	Birth: Wed May 18 2016 17:40:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:40:46 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 20
+	Birth: Wed May 18 2016 17:40:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:41:07 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 21
+	Birth: Wed May 18 2016 17:41:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:41:33 GMT+0300 (Turkey Daylight Time) with Size: 38
+
+Trial No: 22
+	Birth: Wed May 18 2016 17:41:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:41:44 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 23
+	Birth: Wed May 18 2016 17:41:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:41:51 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 24
+	Birth: Wed May 18 2016 17:41:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:42:02 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 25
+	Birth: Wed May 18 2016 17:42:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:42:12 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 26
+	Birth: Wed May 18 2016 17:42:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:42:18 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 27
+	Birth: Wed May 18 2016 17:42:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:42:36 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 28
+	Birth: Wed May 18 2016 17:42:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:42:45 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 29
+	Birth: Wed May 18 2016 17:42:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:42:55 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 30
+	Birth: Wed May 18 2016 17:42:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:43:07 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 31
+	Birth: Wed May 18 2016 17:43:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:43:16 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 32
+	Birth: Wed May 18 2016 17:43:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:43:25 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 33
+	Birth: Wed May 18 2016 17:43:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:43:34 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 34
+	Birth: Wed May 18 2016 17:43:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:43:55 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 35
+	Birth: Wed May 18 2016 17:43:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:44:12 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 36
+	Birth: Wed May 18 2016 17:44:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:44:19 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 37
+	Birth: Wed May 18 2016 17:44:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:44:28 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 38
+	Birth: Wed May 18 2016 17:44:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:44:39 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 39
+	Birth: Wed May 18 2016 17:44:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:44:42 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 40
+	Birth: Wed May 18 2016 17:44:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:44:57 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 41
+	Birth: Wed May 18 2016 17:44:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:45:14 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 42
+	Birth: Wed May 18 2016 17:45:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:45:22 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 43
+	Birth: Wed May 18 2016 17:45:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:45:31 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 44
+	Birth: Wed May 18 2016 17:45:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:45:55 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 45
+	Birth: Wed May 18 2016 17:45:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:46:08 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 46
+	Birth: Wed May 18 2016 17:46:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:46:21 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 47
+	Birth: Wed May 18 2016 17:46:21 GMT+0300 (Turkey Daylight Time)
+ Killed
+	Death: Wed May 18 2016 17:46:29 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 48
+	Birth: Wed May 18 2016 17:46:29 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 49
+	Birth: Wed May 18 2016 17:46:33 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 17:46:33 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 17:46:41 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 50
+	Birth: Wed May 18 2016 17:46:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:46:46 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 51
+	Birth: Wed May 18 2016 17:46:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:46:56 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 52
+	Birth: Wed May 18 2016 17:46:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:47:12 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 53
+	Birth: Wed May 18 2016 17:47:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:47:18 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 54
+	Birth: Wed May 18 2016 17:47:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:47:24 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 55
+	Birth: Wed May 18 2016 17:47:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:47:30 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 56
+	Birth: Wed May 18 2016 17:47:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:47:44 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 57
+	Birth: Wed May 18 2016 17:47:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:48:04 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 58
+	Birth: Wed May 18 2016 17:48:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:48:21 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 59
+	Birth: Wed May 18 2016 17:48:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:48:29 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 60
+	Birth: Wed May 18 2016 17:48:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:48:37 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 61
+	Birth: Wed May 18 2016 17:48:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:48:49 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 62
+	Birth: Wed May 18 2016 17:48:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:48:57 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 63
+	Birth: Wed May 18 2016 17:48:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:49:04 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 64
+	Birth: Wed May 18 2016 17:49:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:49:08 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 65
+	Birth: Wed May 18 2016 17:49:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:49:18 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 66
+	Birth: Wed May 18 2016 17:49:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:49:22 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 67
+	Birth: Wed May 18 2016 17:49:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:49:38 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 68
+	Birth: Wed May 18 2016 17:49:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:49:50 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 69
+	Birth: Wed May 18 2016 17:49:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:50:02 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 70
+	Birth: Wed May 18 2016 17:50:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:50:32 GMT+0300 (Turkey Daylight Time) with Size: 38
+
+Trial No: 71
+	Birth: Wed May 18 2016 17:50:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:50:38 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 72
+	Birth: Wed May 18 2016 17:50:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:50:45 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 73
+	Birth: Wed May 18 2016 17:50:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:50:56 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 74
+	Birth: Wed May 18 2016 17:50:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:51:03 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 75
+	Birth: Wed May 18 2016 17:51:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:51:13 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 76
+	Birth: Wed May 18 2016 17:51:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:51:20 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 77
+	Birth: Wed May 18 2016 17:51:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:51:46 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 78
+	Birth: Wed May 18 2016 17:51:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:00 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 79
+	Birth: Wed May 18 2016 17:52:00 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 80
+	Birth: Wed May 18 2016 17:52:08 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 17:52:08 GMT+0300 (Turkey Daylight Time) with Size: 14
+Killed
+	Death: Wed May 18 2016 17:52:15 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 81
+	Birth: Wed May 18 2016 17:52:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:25 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 82
+	Birth: Wed May 18 2016 17:52:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:40 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 83
+	Birth: Wed May 18 2016 17:52:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:45 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 84
+	Birth: Wed May 18 2016 17:52:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:51 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 85
+	Birth: Wed May 18 2016 17:52:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:52 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 86
+	Birth: Wed May 18 2016 17:52:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:52:55 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 87
+	Birth: Wed May 18 2016 17:52:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:07 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 88
+	Birth: Wed May 18 2016 17:53:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:12 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 89
+	Birth: Wed May 18 2016 17:53:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:20 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 90
+	Birth: Wed May 18 2016 17:53:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:27 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 91
+	Birth: Wed May 18 2016 17:53:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:34 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 92
+	Birth: Wed May 18 2016 17:53:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:40 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 93
+	Birth: Wed May 18 2016 17:53:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:46 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 94
+	Birth: Wed May 18 2016 17:53:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:54 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 95
+	Birth: Wed May 18 2016 17:53:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:53:59 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 96
+	Birth: Wed May 18 2016 17:53:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:07 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 97
+	Birth: Wed May 18 2016 17:54:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:15 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 98
+	Birth: Wed May 18 2016 17:54:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:22 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 99
+	Birth: Wed May 18 2016 17:54:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:32 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 100
+	Birth: Wed May 18 2016 17:54:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:40 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 101
+	Birth: Wed May 18 2016 17:54:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:45 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 102
+	Birth: Wed May 18 2016 17:54:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:52 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 103
+	Birth: Wed May 18 2016 17:54:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:54:57 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 104
+	Birth: Wed May 18 2016 17:54:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:55:03 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 105
+	Birth: Wed May 18 2016 17:55:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:55:17 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 106
+	Birth: Wed May 18 2016 17:55:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:55:28 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 107
+	Birth: Wed May 18 2016 17:55:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:55:35 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 108
+	Birth: Wed May 18 2016 17:55:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:55:45 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 109
+	Birth: Wed May 18 2016 17:55:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:56:00 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 110
+	Birth: Wed May 18 2016 17:56:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:56:03 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 111
+	Birth: Wed May 18 2016 17:56:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:56:08 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 112
+	Birth: Wed May 18 2016 17:56:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:56:13 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 113
+	Birth: Wed May 18 2016 17:56:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:56:21 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 114
+	Birth: Wed May 18 2016 17:56:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:56:35 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 115
+	Birth: Wed May 18 2016 17:56:35 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 116
+	Birth: Wed May 18 2016 17:56:45 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 17:56:45 GMT+0300 (Turkey Daylight Time) with Size: 17
+Killed
+	Death: Wed May 18 2016 17:56:53 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 117
+	Birth: Wed May 18 2016 17:56:53 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 118
+	Birth: Wed May 18 2016 17:56:57 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 17:56:57 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 17:57:09 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 119
+	Birth: Wed May 18 2016 17:57:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:57:19 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 120
+	Birth: Wed May 18 2016 17:57:19 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 121
+	Birth: Wed May 18 2016 17:57:25 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 17:57:25 GMT+0300 (Turkey Daylight Time) with Size: 14
+Killed
+	Death: Wed May 18 2016 17:57:34 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 122
+	Birth: Wed May 18 2016 17:57:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:57:39 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 123
+	Birth: Wed May 18 2016 17:57:39 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 124
+	Birth: Wed May 18 2016 17:57:46 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 17:57:46 GMT+0300 (Turkey Daylight Time) with Size: 21
+Killed
+	Death: Wed May 18 2016 17:57:58 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 125
+	Birth: Wed May 18 2016 17:57:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:58:05 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 126
+	Birth: Wed May 18 2016 17:58:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:58:27 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 127
+	Birth: Wed May 18 2016 17:58:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:58:34 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 128
+	Birth: Wed May 18 2016 17:58:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:58:40 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 129
+	Birth: Wed May 18 2016 17:58:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:58:49 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 130
+	Birth: Wed May 18 2016 17:58:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:58:56 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 131
+	Birth: Wed May 18 2016 17:58:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:06 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 132
+	Birth: Wed May 18 2016 17:59:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:12 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 133
+	Birth: Wed May 18 2016 17:59:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:18 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 134
+	Birth: Wed May 18 2016 17:59:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:27 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 135
+	Birth: Wed May 18 2016 17:59:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:30 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 136
+	Birth: Wed May 18 2016 17:59:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:41 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 137
+	Birth: Wed May 18 2016 17:59:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 17:59:46 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 138
+	Birth: Wed May 18 2016 17:59:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:04 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 139
+	Birth: Wed May 18 2016 18:00:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:20 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 140
+	Birth: Wed May 18 2016 18:00:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:30 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 141
+	Birth: Wed May 18 2016 18:00:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:36 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 142
+	Birth: Wed May 18 2016 18:00:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:41 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 143
+	Birth: Wed May 18 2016 18:00:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:46 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 144
+	Birth: Wed May 18 2016 18:00:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:00:58 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 145
+	Birth: Wed May 18 2016 18:00:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:01:02 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 146
+	Birth: Wed May 18 2016 18:01:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:01:07 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 147
+	Birth: Wed May 18 2016 18:01:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:01:13 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 148
+	Birth: Wed May 18 2016 18:01:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:01:24 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 149
+	Birth: Wed May 18 2016 18:01:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:01:37 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 150
+	Birth: Wed May 18 2016 18:01:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:01:47 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 151
+	Birth: Wed May 18 2016 18:01:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:12 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 152
+	Birth: Wed May 18 2016 18:02:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:23 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 153
+	Birth: Wed May 18 2016 18:02:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:28 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 154
+	Birth: Wed May 18 2016 18:02:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:34 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 155
+	Birth: Wed May 18 2016 18:02:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:40 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 156
+	Birth: Wed May 18 2016 18:02:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:45 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 157
+	Birth: Wed May 18 2016 18:02:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:02:54 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 158
+	Birth: Wed May 18 2016 18:02:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:03:04 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 159
+	Birth: Wed May 18 2016 18:03:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:03:27 GMT+0300 (Turkey Daylight Time) with Size: 36
+
+Trial No: 160
+	Birth: Wed May 18 2016 18:03:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:03:42 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 161
+	Birth: Wed May 18 2016 18:03:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:03:56 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 162
+	Birth: Wed May 18 2016 18:03:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:04:13 GMT+0300 (Turkey Daylight Time) with Size: 28
+
+Trial No: 163
+	Birth: Wed May 18 2016 18:04:13 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 164
+	Birth: Wed May 18 2016 18:04:25 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:04:25 GMT+0300 (Turkey Daylight Time) with Size: 24
+Killed
+
+Trial No: 165
+	Birth: Wed May 18 2016 18:04:36 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:04:36 GMT+0300 (Turkey Daylight Time) with Size: 18
+Killed
+	Death: Wed May 18 2016 18:04:47 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 166
+	Birth: Wed May 18 2016 18:04:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:04:53 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 167
+	Birth: Wed May 18 2016 18:04:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:05:05 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 168
+	Birth: Wed May 18 2016 18:05:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:07:18 GMT+0300 (Turkey Daylight Time) with Size: 173
+
+Trial No: 169
+	Birth: Wed May 18 2016 18:07:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:07:50 GMT+0300 (Turkey Daylight Time) with Size: 34
+
+Trial No: 170
+	Birth: Wed May 18 2016 18:07:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:07:57 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 171
+	Birth: Wed May 18 2016 18:07:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:08:02 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 172
+	Birth: Wed May 18 2016 18:08:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:08:08 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 173
+	Birth: Wed May 18 2016 18:08:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:08:13 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 174
+	Birth: Wed May 18 2016 18:08:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:08:21 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 175
+	Birth: Wed May 18 2016 18:08:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:08:36 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 176
+	Birth: Wed May 18 2016 18:08:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:09:04 GMT+0300 (Turkey Daylight Time) with Size: 39
+
+Trial No: 177
+	Birth: Wed May 18 2016 18:09:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:09:28 GMT+0300 (Turkey Daylight Time) with Size: 39
+
+Trial No: 178
+	Birth: Wed May 18 2016 18:09:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:09:38 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 179
+	Birth: Wed May 18 2016 18:09:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:09:44 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 180
+	Birth: Wed May 18 2016 18:09:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:09:54 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 181
+	Birth: Wed May 18 2016 18:09:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:02 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 182
+	Birth: Wed May 18 2016 18:10:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:07 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 183
+	Birth: Wed May 18 2016 18:10:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:18 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 184
+	Birth: Wed May 18 2016 18:10:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:29 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 185
+	Birth: Wed May 18 2016 18:10:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:35 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 186
+	Birth: Wed May 18 2016 18:10:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:41 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 187
+	Birth: Wed May 18 2016 18:10:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:10:52 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 188
+	Birth: Wed May 18 2016 18:10:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:11:09 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 189
+	Birth: Wed May 18 2016 18:11:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:11:15 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 190
+	Birth: Wed May 18 2016 18:11:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:11:42 GMT+0300 (Turkey Daylight Time) with Size: 50
+
+Trial No: 191
+	Birth: Wed May 18 2016 18:11:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:11:45 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 192
+	Birth: Wed May 18 2016 18:11:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:00 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 193
+	Birth: Wed May 18 2016 18:12:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:05 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 194
+	Birth: Wed May 18 2016 18:12:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:16 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 195
+	Birth: Wed May 18 2016 18:12:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:21 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 196
+	Birth: Wed May 18 2016 18:12:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:39 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 197
+	Birth: Wed May 18 2016 18:12:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:44 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 198
+	Birth: Wed May 18 2016 18:12:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:52 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 199
+	Birth: Wed May 18 2016 18:12:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:12:56 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 200
+	Birth: Wed May 18 2016 18:12:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:13:06 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 201
+	Birth: Wed May 18 2016 18:13:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:13:11 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 202
+	Birth: Wed May 18 2016 18:13:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:13:17 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 203
+	Birth: Wed May 18 2016 18:13:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:13:26 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 204
+	Birth: Wed May 18 2016 18:13:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:13:51 GMT+0300 (Turkey Daylight Time) with Size: 43
+
+Trial No: 205
+	Birth: Wed May 18 2016 18:13:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:13:58 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 206
+	Birth: Wed May 18 2016 18:13:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:14:01 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 207
+	Birth: Wed May 18 2016 18:14:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:14:06 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 208
+	Birth: Wed May 18 2016 18:14:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:14:17 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 209
+	Birth: Wed May 18 2016 18:14:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:14:22 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 210
+	Birth: Wed May 18 2016 18:14:22 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 211
+	Birth: Wed May 18 2016 18:16:38 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:16:38 GMT+0300 (Turkey Daylight Time) with Size: 118
+Killed
+	Death: Wed May 18 2016 18:16:45 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 212
+	Birth: Wed May 18 2016 18:16:45 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 213
+	Birth: Wed May 18 2016 18:16:54 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:16:54 GMT+0300 (Turkey Daylight Time) with Size: 15
+Killed
+	Death: Wed May 18 2016 18:18:42 GMT+0300 (Turkey Daylight Time) with Size: 122
+
+Trial No: 214
+	Birth: Wed May 18 2016 18:18:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:18:55 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 215
+	Birth: Wed May 18 2016 18:18:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:11 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 216
+	Birth: Wed May 18 2016 18:19:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:28 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 217
+	Birth: Wed May 18 2016 18:19:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:34 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 218
+	Birth: Wed May 18 2016 18:19:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:37 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 219
+	Birth: Wed May 18 2016 18:19:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:45 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 220
+	Birth: Wed May 18 2016 18:19:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:51 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 221
+	Birth: Wed May 18 2016 18:19:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:19:58 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 222
+	Birth: Wed May 18 2016 18:19:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:20:09 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 223
+	Birth: Wed May 18 2016 18:20:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:20:17 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 224
+	Birth: Wed May 18 2016 18:20:17 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 225
+	Birth: Wed May 18 2016 18:20:29 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:20:29 GMT+0300 (Turkey Daylight Time) with Size: 16
+Killed
+	Death: Wed May 18 2016 18:20:33 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 226
+	Birth: Wed May 18 2016 18:20:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:20:44 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 227
+	Birth: Wed May 18 2016 18:20:44 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 228
+	Birth: Wed May 18 2016 18:20:52 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:20:52 GMT+0300 (Turkey Daylight Time) with Size: 17
+Killed
+	Death: Wed May 18 2016 18:21:04 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 229
+	Birth: Wed May 18 2016 18:21:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:21:09 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 230
+	Birth: Wed May 18 2016 18:21:09 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 231
+	Birth: Wed May 18 2016 18:21:21 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:21:21 GMT+0300 (Turkey Daylight Time) with Size: 17
+Killed
+	Death: Wed May 18 2016 18:21:35 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 232
+	Birth: Wed May 18 2016 18:21:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:21:43 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 233
+	Birth: Wed May 18 2016 18:21:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:21:52 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 234
+	Birth: Wed May 18 2016 18:21:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:21:58 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 235
+	Birth: Wed May 18 2016 18:21:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:22:06 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 236
+	Birth: Wed May 18 2016 18:22:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:22:12 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 237
+	Birth: Wed May 18 2016 18:22:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:22:22 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 238
+	Birth: Wed May 18 2016 18:22:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:22:28 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 239
+	Birth: Wed May 18 2016 18:22:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:22:50 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 240
+	Birth: Wed May 18 2016 18:22:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:22:55 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 241
+	Birth: Wed May 18 2016 18:22:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:23:07 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 242
+	Birth: Wed May 18 2016 18:23:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:23:12 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 243
+	Birth: Wed May 18 2016 18:23:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:23:34 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 244
+	Birth: Wed May 18 2016 18:23:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:23:39 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 245
+	Birth: Wed May 18 2016 18:23:39 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 246
+	Birth: Wed May 18 2016 18:24:18 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:24:18 GMT+0300 (Turkey Daylight Time) with Size: 42
+Killed
+	Death: Wed May 18 2016 18:24:59 GMT+0300 (Turkey Daylight Time) with Size: 53
+
+Trial No: 247
+	Birth: Wed May 18 2016 18:24:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:25:07 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 248
+	Birth: Wed May 18 2016 18:25:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:25:26 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 249
+	Birth: Wed May 18 2016 18:25:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:25:34 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 250
+	Birth: Wed May 18 2016 18:25:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:25:40 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 251
+	Birth: Wed May 18 2016 18:25:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:25:53 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 252
+	Birth: Wed May 18 2016 18:25:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:26:02 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 253
+	Birth: Wed May 18 2016 18:26:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:26:07 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 254
+	Birth: Wed May 18 2016 18:26:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:26:14 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 255
+	Birth: Wed May 18 2016 18:26:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:26:18 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 256
+	Birth: Wed May 18 2016 18:26:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:26:28 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 257
+	Birth: Wed May 18 2016 18:26:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:26:35 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 258
+	Birth: Wed May 18 2016 18:26:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:01 GMT+0300 (Turkey Daylight Time) with Size: 28
+
+Trial No: 259
+	Birth: Wed May 18 2016 18:27:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:08 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 260
+	Birth: Wed May 18 2016 18:27:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:12 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 261
+	Birth: Wed May 18 2016 18:27:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:17 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 262
+	Birth: Wed May 18 2016 18:27:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:26 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 263
+	Birth: Wed May 18 2016 18:27:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:54 GMT+0300 (Turkey Daylight Time) with Size: 34
+
+Trial No: 264
+	Birth: Wed May 18 2016 18:27:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:27:58 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 265
+	Birth: Wed May 18 2016 18:27:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:05 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 266
+	Birth: Wed May 18 2016 18:28:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:12 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 267
+	Birth: Wed May 18 2016 18:28:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:17 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 268
+	Birth: Wed May 18 2016 18:28:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:28 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 269
+	Birth: Wed May 18 2016 18:28:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:32 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 270
+	Birth: Wed May 18 2016 18:28:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:36 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 271
+	Birth: Wed May 18 2016 18:28:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:41 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 272
+	Birth: Wed May 18 2016 18:28:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:46 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 273
+	Birth: Wed May 18 2016 18:28:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:51 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 274
+	Birth: Wed May 18 2016 18:28:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:28:58 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 275
+	Birth: Wed May 18 2016 18:28:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:29:15 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 276
+	Birth: Wed May 18 2016 18:29:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:29:27 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 277
+	Birth: Wed May 18 2016 18:29:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:29:32 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 278
+	Birth: Wed May 18 2016 18:29:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:29:39 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 279
+	Birth: Wed May 18 2016 18:29:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:29:51 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 280
+	Birth: Wed May 18 2016 18:29:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:30:24 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 281
+	Birth: Wed May 18 2016 18:30:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:30:36 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 282
+	Birth: Wed May 18 2016 18:30:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:30:50 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 283
+	Birth: Wed May 18 2016 18:30:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:30:53 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 284
+	Birth: Wed May 18 2016 18:30:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:31:18 GMT+0300 (Turkey Daylight Time) with Size: 36
+
+Trial No: 285
+	Birth: Wed May 18 2016 18:31:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:31:39 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 286
+	Birth: Wed May 18 2016 18:31:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:32:31 GMT+0300 (Turkey Daylight Time) with Size: 57
+
+Trial No: 287
+	Birth: Wed May 18 2016 18:32:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:32:36 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 288
+	Birth: Wed May 18 2016 18:32:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:32:44 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 289
+	Birth: Wed May 18 2016 18:32:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:33:03 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 290
+	Birth: Wed May 18 2016 18:33:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:33:09 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 291
+	Birth: Wed May 18 2016 18:33:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:33:12 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 292
+	Birth: Wed May 18 2016 18:33:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:33:19 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 293
+	Birth: Wed May 18 2016 18:33:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:33:44 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 294
+	Birth: Wed May 18 2016 18:33:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:00 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 295
+	Birth: Wed May 18 2016 18:34:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:07 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 296
+	Birth: Wed May 18 2016 18:34:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:12 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 297
+	Birth: Wed May 18 2016 18:34:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:17 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 298
+	Birth: Wed May 18 2016 18:34:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:30 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 299
+	Birth: Wed May 18 2016 18:34:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:38 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 300
+	Birth: Wed May 18 2016 18:34:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:34:46 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 301
+	Birth: Wed May 18 2016 18:34:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:24 GMT+0300 (Turkey Daylight Time) with Size: 56
+
+Trial No: 302
+	Birth: Wed May 18 2016 18:35:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:28 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 303
+	Birth: Wed May 18 2016 18:35:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:34 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 304
+	Birth: Wed May 18 2016 18:35:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:42 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 305
+	Birth: Wed May 18 2016 18:35:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:47 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 306
+	Birth: Wed May 18 2016 18:35:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:54 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 307
+	Birth: Wed May 18 2016 18:35:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:35:57 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 308
+	Birth: Wed May 18 2016 18:35:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:36:16 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 309
+	Birth: Wed May 18 2016 18:36:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:36:26 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 310
+	Birth: Wed May 18 2016 18:36:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:36:31 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 311
+	Birth: Wed May 18 2016 18:36:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:36:38 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 312
+	Birth: Wed May 18 2016 18:36:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:36:43 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 313
+	Birth: Wed May 18 2016 18:36:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:36:59 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 314
+	Birth: Wed May 18 2016 18:36:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:37:12 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 315
+	Birth: Wed May 18 2016 18:37:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:37:18 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 316
+	Birth: Wed May 18 2016 18:37:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:37:24 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 317
+	Birth: Wed May 18 2016 18:37:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:38:06 GMT+0300 (Turkey Daylight Time) with Size: 34
+
+Trial No: 318
+	Birth: Wed May 18 2016 18:38:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:38:12 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 319
+	Birth: Wed May 18 2016 18:38:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:38:27 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 320
+	Birth: Wed May 18 2016 18:38:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:38:32 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 321
+	Birth: Wed May 18 2016 18:38:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:38:40 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 322
+	Birth: Wed May 18 2016 18:38:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:38:59 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 323
+	Birth: Wed May 18 2016 18:38:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:39:07 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 324
+	Birth: Wed May 18 2016 18:39:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:39:13 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 325
+	Birth: Wed May 18 2016 18:39:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:39:19 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 326
+	Birth: Wed May 18 2016 18:39:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:39:29 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 327
+	Birth: Wed May 18 2016 18:39:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:39:38 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 328
+	Birth: Wed May 18 2016 18:39:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:39:46 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 329
+	Birth: Wed May 18 2016 18:39:46 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 330
+	Birth: Wed May 18 2016 18:39:57 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:39:57 GMT+0300 (Turkey Daylight Time) with Size: 15
+Killed
+	Death: Wed May 18 2016 18:40:09 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 331
+	Birth: Wed May 18 2016 18:40:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:40:17 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 332
+	Birth: Wed May 18 2016 18:40:17 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 333
+	Birth: Wed May 18 2016 18:40:26 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:40:26 GMT+0300 (Turkey Daylight Time) with Size: 12
+Killed
+	Death: Wed May 18 2016 18:40:32 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 334
+	Birth: Wed May 18 2016 18:40:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:40:43 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 335
+	Birth: Wed May 18 2016 18:40:43 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 336
+	Birth: Wed May 18 2016 18:41:36 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:41:36 GMT+0300 (Turkey Daylight Time) with Size: 68
+Killed
+	Death: Wed May 18 2016 18:41:59 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 337
+	Birth: Wed May 18 2016 18:41:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:12 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 338
+	Birth: Wed May 18 2016 18:42:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:18 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 339
+	Birth: Wed May 18 2016 18:42:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:22 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 340
+	Birth: Wed May 18 2016 18:42:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:32 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 341
+	Birth: Wed May 18 2016 18:42:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:37 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 342
+	Birth: Wed May 18 2016 18:42:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:49 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 343
+	Birth: Wed May 18 2016 18:42:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:42:56 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 344
+	Birth: Wed May 18 2016 18:42:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:43:02 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 345
+	Birth: Wed May 18 2016 18:43:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:43:07 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 346
+	Birth: Wed May 18 2016 18:43:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:43:25 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 347
+	Birth: Wed May 18 2016 18:43:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:43:33 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 348
+	Birth: Wed May 18 2016 18:43:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:43:42 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 349
+	Birth: Wed May 18 2016 18:43:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:43:48 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 350
+	Birth: Wed May 18 2016 18:43:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:44:25 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 351
+	Birth: Wed May 18 2016 18:44:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:44:43 GMT+0300 (Turkey Daylight Time) with Size: 28
+
+Trial No: 352
+	Birth: Wed May 18 2016 18:44:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:44:46 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 353
+	Birth: Wed May 18 2016 18:44:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:45:03 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 354
+	Birth: Wed May 18 2016 18:45:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:45:22 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 355
+	Birth: Wed May 18 2016 18:45:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:45:30 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 356
+	Birth: Wed May 18 2016 18:45:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:45:35 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 357
+	Birth: Wed May 18 2016 18:45:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:45:46 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 358
+	Birth: Wed May 18 2016 18:45:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:46:01 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 359
+	Birth: Wed May 18 2016 18:46:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:46:09 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 360
+	Birth: Wed May 18 2016 18:46:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:46:36 GMT+0300 (Turkey Daylight Time) with Size: 44
+
+Trial No: 361
+	Birth: Wed May 18 2016 18:46:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:46:40 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 362
+	Birth: Wed May 18 2016 18:46:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:46:47 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 363
+	Birth: Wed May 18 2016 18:46:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:46:55 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 364
+	Birth: Wed May 18 2016 18:46:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:47:35 GMT+0300 (Turkey Daylight Time) with Size: 48
+
+Trial No: 365
+	Birth: Wed May 18 2016 18:47:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:47:38 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 366
+	Birth: Wed May 18 2016 18:47:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:47:49 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 367
+	Birth: Wed May 18 2016 18:47:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:47:56 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 368
+	Birth: Wed May 18 2016 18:47:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:01 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 369
+	Birth: Wed May 18 2016 18:48:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:09 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 370
+	Birth: Wed May 18 2016 18:48:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:15 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 371
+	Birth: Wed May 18 2016 18:48:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:20 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 372
+	Birth: Wed May 18 2016 18:48:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:32 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 373
+	Birth: Wed May 18 2016 18:48:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:38 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 374
+	Birth: Wed May 18 2016 18:48:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:45 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 375
+	Birth: Wed May 18 2016 18:48:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:48:51 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 376
+	Birth: Wed May 18 2016 18:48:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:49:00 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 377
+	Birth: Wed May 18 2016 18:49:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:49:04 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 378
+	Birth: Wed May 18 2016 18:49:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:49:13 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 379
+	Birth: Wed May 18 2016 18:49:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:49:20 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 380
+	Birth: Wed May 18 2016 18:49:20 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 381
+	Birth: Wed May 18 2016 18:49:26 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:49:26 GMT+0300 (Turkey Daylight Time) with Size: 10
+Killed
+	Death: Wed May 18 2016 18:49:31 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 382
+	Birth: Wed May 18 2016 18:49:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:49:45 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 383
+	Birth: Wed May 18 2016 18:49:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:49:51 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 384
+	Birth: Wed May 18 2016 18:49:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:50:04 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 385
+	Birth: Wed May 18 2016 18:50:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:50:15 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 386
+	Birth: Wed May 18 2016 18:50:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:50:24 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 387
+	Birth: Wed May 18 2016 18:50:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:50:28 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 388
+	Birth: Wed May 18 2016 18:50:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:50:42 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 389
+	Birth: Wed May 18 2016 18:50:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:50:45 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 390
+	Birth: Wed May 18 2016 18:50:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:54:14 GMT+0300 (Turkey Daylight Time) with Size: 201.19837330274603
+
+Trial No: 391
+	Birth: Wed May 18 2016 18:54:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:54:23 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 392
+	Birth: Wed May 18 2016 18:54:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:54:35 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 393
+	Birth: Wed May 18 2016 18:54:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:54:44 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 394
+	Birth: Wed May 18 2016 18:54:44 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 395
+	Birth: Wed May 18 2016 18:54:51 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:54:51 GMT+0300 (Turkey Daylight Time) with Size: 13
+Killed
+	Death: Wed May 18 2016 18:54:58 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 396
+	Birth: Wed May 18 2016 18:54:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:55:05 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 397
+	Birth: Wed May 18 2016 18:55:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:55:11 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 398
+	Birth: Wed May 18 2016 18:55:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:55:24 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 399
+	Birth: Wed May 18 2016 18:55:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:55:35 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 400
+	Birth: Wed May 18 2016 18:55:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:55:40 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 401
+	Birth: Wed May 18 2016 18:55:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:56:47 GMT+0300 (Turkey Daylight Time) with Size: 42
+
+Trial No: 402
+	Birth: Wed May 18 2016 18:56:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:56:53 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 403
+	Birth: Wed May 18 2016 18:56:53 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 404
+	Birth: Wed May 18 2016 18:57:11 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:57:11 GMT+0300 (Turkey Daylight Time) with Size: 20
+Killed
+	Death: Wed May 18 2016 18:57:19 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 405
+	Birth: Wed May 18 2016 18:57:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:57:27 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 406
+	Birth: Wed May 18 2016 18:57:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:57:34 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 407
+	Birth: Wed May 18 2016 18:57:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:57:38 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 408
+	Birth: Wed May 18 2016 18:57:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:57:43 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 409
+	Birth: Wed May 18 2016 18:57:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:57:53 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 410
+	Birth: Wed May 18 2016 18:57:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:57:58 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 411
+	Birth: Wed May 18 2016 18:57:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:58:07 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 412
+	Birth: Wed May 18 2016 18:58:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:58:20 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 413
+	Birth: Wed May 18 2016 18:58:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:58:25 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 414
+	Birth: Wed May 18 2016 18:58:25 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 415
+	Birth: Wed May 18 2016 18:58:30 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 18:58:30 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 18:58:49 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 416
+	Birth: Wed May 18 2016 18:58:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:58:55 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 417
+	Birth: Wed May 18 2016 18:58:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:59:02 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 418
+	Birth: Wed May 18 2016 18:59:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:59:06 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 419
+	Birth: Wed May 18 2016 18:59:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:59:14 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 420
+	Birth: Wed May 18 2016 18:59:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:59:19 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 421
+	Birth: Wed May 18 2016 18:59:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:59:29 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 422
+	Birth: Wed May 18 2016 18:59:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 18:59:58 GMT+0300 (Turkey Daylight Time) with Size: 28
+
+Trial No: 423
+	Birth: Wed May 18 2016 18:59:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:00:07 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 424
+	Birth: Wed May 18 2016 19:00:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:00:21 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 425
+	Birth: Wed May 18 2016 19:00:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:00:29 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 426
+	Birth: Wed May 18 2016 19:00:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:00:42 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 427
+	Birth: Wed May 18 2016 19:00:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:00:56 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 428
+	Birth: Wed May 18 2016 19:00:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:01:05 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 429
+	Birth: Wed May 18 2016 19:01:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:01:12 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 430
+	Birth: Wed May 18 2016 19:01:12 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 431
+	Birth: Wed May 18 2016 19:01:20 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:01:20 GMT+0300 (Turkey Daylight Time) with Size: 12
+Killed
+	Death: Wed May 18 2016 19:01:29 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 432
+	Birth: Wed May 18 2016 19:01:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:01:41 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 433
+	Birth: Wed May 18 2016 19:01:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:01:47 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 434
+	Birth: Wed May 18 2016 19:01:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:01:57 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 435
+	Birth: Wed May 18 2016 19:01:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:02:05 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 436
+	Birth: Wed May 18 2016 19:02:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:02:11 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 437
+	Birth: Wed May 18 2016 19:02:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:02:23 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 438
+	Birth: Wed May 18 2016 19:02:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:02:37 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 439
+	Birth: Wed May 18 2016 19:02:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:02:48 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 440
+	Birth: Wed May 18 2016 19:02:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:02:56 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 441
+	Birth: Wed May 18 2016 19:02:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:03:02 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 442
+	Birth: Wed May 18 2016 19:03:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:03:07 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 443
+	Birth: Wed May 18 2016 19:03:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:03:12 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 444
+	Birth: Wed May 18 2016 19:03:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:03:22 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 445
+	Birth: Wed May 18 2016 19:03:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:03:55 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 446
+	Birth: Wed May 18 2016 19:03:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:04:09 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 447
+	Birth: Wed May 18 2016 19:04:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:04:13 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 448
+	Birth: Wed May 18 2016 19:04:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:04:19 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 449
+	Birth: Wed May 18 2016 19:04:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:04:34 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 450
+	Birth: Wed May 18 2016 19:04:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:04:49 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 451
+	Birth: Wed May 18 2016 19:04:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:04:56 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 452
+	Birth: Wed May 18 2016 19:04:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:05:02 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 453
+	Birth: Wed May 18 2016 19:05:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:05:49 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 454
+	Birth: Wed May 18 2016 19:05:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:05:55 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 455
+	Birth: Wed May 18 2016 19:05:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:02 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 456
+	Birth: Wed May 18 2016 19:06:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:10 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 457
+	Birth: Wed May 18 2016 19:06:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:17 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 458
+	Birth: Wed May 18 2016 19:06:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:20 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 459
+	Birth: Wed May 18 2016 19:06:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:27 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 460
+	Birth: Wed May 18 2016 19:06:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:35 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 461
+	Birth: Wed May 18 2016 19:06:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:06:48 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 462
+	Birth: Wed May 18 2016 19:06:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:07:01 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 463
+	Birth: Wed May 18 2016 19:07:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:07:14 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 464
+	Birth: Wed May 18 2016 19:07:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:07:21 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 465
+	Birth: Wed May 18 2016 19:07:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:07:48 GMT+0300 (Turkey Daylight Time) with Size: 36
+
+Trial No: 466
+	Birth: Wed May 18 2016 19:07:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:07:55 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 467
+	Birth: Wed May 18 2016 19:07:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:07:59 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 468
+	Birth: Wed May 18 2016 19:07:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:08:22 GMT+0300 (Turkey Daylight Time) with Size: 42
+
+Trial No: 469
+	Birth: Wed May 18 2016 19:08:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:08:45 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 470
+	Birth: Wed May 18 2016 19:08:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:08:55 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 471
+	Birth: Wed May 18 2016 19:08:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:09:00 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 472
+	Birth: Wed May 18 2016 19:09:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:09:27 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 473
+	Birth: Wed May 18 2016 19:09:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:09:36 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 474
+	Birth: Wed May 18 2016 19:09:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:09:43 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 475
+	Birth: Wed May 18 2016 19:09:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:09:50 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 476
+	Birth: Wed May 18 2016 19:09:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:09:57 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 477
+	Birth: Wed May 18 2016 19:09:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:10:08 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 478
+	Birth: Wed May 18 2016 19:10:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:10:13 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 479
+	Birth: Wed May 18 2016 19:10:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:10:20 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 480
+	Birth: Wed May 18 2016 19:10:20 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 481
+	Birth: Wed May 18 2016 19:10:26 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:10:26 GMT+0300 (Turkey Daylight Time) with Size: 12
+Killed
+	Death: Wed May 18 2016 19:10:33 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 482
+	Birth: Wed May 18 2016 19:10:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:10:46 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 483
+	Birth: Wed May 18 2016 19:10:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:10:51 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 484
+	Birth: Wed May 18 2016 19:10:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:11:11 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 485
+	Birth: Wed May 18 2016 19:11:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:11:29 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 486
+	Birth: Wed May 18 2016 19:11:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:11:33 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 487
+	Birth: Wed May 18 2016 19:11:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:11:47 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 488
+	Birth: Wed May 18 2016 19:11:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:03 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 489
+	Birth: Wed May 18 2016 19:12:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:11 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 490
+	Birth: Wed May 18 2016 19:12:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:17 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 491
+	Birth: Wed May 18 2016 19:12:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:20 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 492
+	Birth: Wed May 18 2016 19:12:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:25 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 493
+	Birth: Wed May 18 2016 19:12:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:31 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 494
+	Birth: Wed May 18 2016 19:12:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:35 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 495
+	Birth: Wed May 18 2016 19:12:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:12:40 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 496
+	Birth: Wed May 18 2016 19:12:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:13:05 GMT+0300 (Turkey Daylight Time) with Size: 32
+
+Trial No: 497
+	Birth: Wed May 18 2016 19:13:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:13:09 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 498
+	Birth: Wed May 18 2016 19:13:09 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 499
+	Birth: Wed May 18 2016 19:13:15 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:13:15 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 19:13:21 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 500
+	Birth: Wed May 18 2016 19:13:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:13:27 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 501
+	Birth: Wed May 18 2016 19:13:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:13:38 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 502
+	Birth: Wed May 18 2016 19:13:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:00 GMT+0300 (Turkey Daylight Time) with Size: 33
+
+Trial No: 503
+	Birth: Wed May 18 2016 19:14:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:05 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 504
+	Birth: Wed May 18 2016 19:14:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:13 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 505
+	Birth: Wed May 18 2016 19:14:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:23 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 506
+	Birth: Wed May 18 2016 19:14:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:30 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 507
+	Birth: Wed May 18 2016 19:14:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:49 GMT+0300 (Turkey Daylight Time) with Size: 38
+
+Trial No: 508
+	Birth: Wed May 18 2016 19:14:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:14:53 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 509
+	Birth: Wed May 18 2016 19:14:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:00 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 510
+	Birth: Wed May 18 2016 19:15:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:06 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 511
+	Birth: Wed May 18 2016 19:15:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:10 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 512
+	Birth: Wed May 18 2016 19:15:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:13 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 513
+	Birth: Wed May 18 2016 19:15:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:19 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 514
+	Birth: Wed May 18 2016 19:15:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:42 GMT+0300 (Turkey Daylight Time) with Size: 32
+
+Trial No: 515
+	Birth: Wed May 18 2016 19:15:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:15:49 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 516
+	Birth: Wed May 18 2016 19:15:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:08 GMT+0300 (Turkey Daylight Time) with Size: 60
+
+Trial No: 517
+	Birth: Wed May 18 2016 19:17:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:13 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 518
+	Birth: Wed May 18 2016 19:17:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:18 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 519
+	Birth: Wed May 18 2016 19:17:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:26 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 520
+	Birth: Wed May 18 2016 19:17:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:34 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 521
+	Birth: Wed May 18 2016 19:17:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:43 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 522
+	Birth: Wed May 18 2016 19:17:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:17:53 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 523
+	Birth: Wed May 18 2016 19:17:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:18:03 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 524
+	Birth: Wed May 18 2016 19:18:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:18:21 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 525
+	Birth: Wed May 18 2016 19:18:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:18:30 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 526
+	Birth: Wed May 18 2016 19:18:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:18:47 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 527
+	Birth: Wed May 18 2016 19:18:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:18:55 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 528
+	Birth: Wed May 18 2016 19:18:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:18:59 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 529
+	Birth: Wed May 18 2016 19:18:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:19:04 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 530
+	Birth: Wed May 18 2016 19:19:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:19:34 GMT+0300 (Turkey Daylight Time) with Size: 38
+
+Trial No: 531
+	Birth: Wed May 18 2016 19:19:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:19:39 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 532
+	Birth: Wed May 18 2016 19:19:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:19:48 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 533
+	Birth: Wed May 18 2016 19:19:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:19:54 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 534
+	Birth: Wed May 18 2016 19:19:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:19:59 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 535
+	Birth: Wed May 18 2016 19:19:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:20:06 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 536
+	Birth: Wed May 18 2016 19:20:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:20:25 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 537
+	Birth: Wed May 18 2016 19:20:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:20:46 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 538
+	Birth: Wed May 18 2016 19:20:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:20:53 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 539
+	Birth: Wed May 18 2016 19:20:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:21:09 GMT+0300 (Turkey Daylight Time) with Size: 32
+
+Trial No: 540
+	Birth: Wed May 18 2016 19:21:09 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 541
+	Birth: Wed May 18 2016 19:21:16 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:21:16 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 19:21:25 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 542
+	Birth: Wed May 18 2016 19:21:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:21:29 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 543
+	Birth: Wed May 18 2016 19:21:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:21:33 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 544
+	Birth: Wed May 18 2016 19:21:33 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 545
+	Birth: Wed May 18 2016 19:21:39 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:21:39 GMT+0300 (Turkey Daylight Time) with Size: 12
+Killed
+	Death: Wed May 18 2016 19:21:51 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 546
+	Birth: Wed May 18 2016 19:21:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:21:58 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 547
+	Birth: Wed May 18 2016 19:21:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:22:16 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 548
+	Birth: Wed May 18 2016 19:22:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:22:34 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 549
+	Birth: Wed May 18 2016 19:22:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:22:42 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 550
+	Birth: Wed May 18 2016 19:22:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:22:57 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 551
+	Birth: Wed May 18 2016 19:22:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:07 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 552
+	Birth: Wed May 18 2016 19:23:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:14 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 553
+	Birth: Wed May 18 2016 19:23:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:20 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 554
+	Birth: Wed May 18 2016 19:23:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:29 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 555
+	Birth: Wed May 18 2016 19:23:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:38 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 556
+	Birth: Wed May 18 2016 19:23:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:45 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 557
+	Birth: Wed May 18 2016 19:23:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:23:50 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 558
+	Birth: Wed May 18 2016 19:23:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:20 GMT+0300 (Turkey Daylight Time) with Size: 49
+
+Trial No: 559
+	Birth: Wed May 18 2016 19:24:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:29 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 560
+	Birth: Wed May 18 2016 19:24:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:37 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 561
+	Birth: Wed May 18 2016 19:24:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:43 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 562
+	Birth: Wed May 18 2016 19:24:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:48 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 563
+	Birth: Wed May 18 2016 19:24:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:51 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 564
+	Birth: Wed May 18 2016 19:24:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:24:58 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 565
+	Birth: Wed May 18 2016 19:24:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:25:03 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 566
+	Birth: Wed May 18 2016 19:25:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:25:12 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 567
+	Birth: Wed May 18 2016 19:25:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:25:16 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 568
+	Birth: Wed May 18 2016 19:25:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:25:29 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 569
+	Birth: Wed May 18 2016 19:25:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:25:42 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 570
+	Birth: Wed May 18 2016 19:25:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:25:48 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 571
+	Birth: Wed May 18 2016 19:25:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:26:00 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 572
+	Birth: Wed May 18 2016 19:26:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:26:09 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 573
+	Birth: Wed May 18 2016 19:26:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:26:13 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 574
+	Birth: Wed May 18 2016 19:26:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:26:42 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 575
+	Birth: Wed May 18 2016 19:26:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:26:53 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 576
+	Birth: Wed May 18 2016 19:26:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:26:58 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 577
+	Birth: Wed May 18 2016 19:26:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:27:05 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 578
+	Birth: Wed May 18 2016 19:27:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:27:11 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 579
+	Birth: Wed May 18 2016 19:27:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:27:17 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 580
+	Birth: Wed May 18 2016 19:27:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:27:23 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 581
+	Birth: Wed May 18 2016 19:27:23 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 582
+	Birth: Wed May 18 2016 19:27:30 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:27:30 GMT+0300 (Turkey Daylight Time) with Size: 14
+Killed
+	Death: Wed May 18 2016 19:27:35 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 583
+	Birth: Wed May 18 2016 19:27:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:27:54 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 584
+	Birth: Wed May 18 2016 19:27:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:27:59 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 585
+	Birth: Wed May 18 2016 19:27:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:28:10 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 586
+	Birth: Wed May 18 2016 19:28:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:28:24 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 587
+	Birth: Wed May 18 2016 19:28:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:28:35 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 588
+	Birth: Wed May 18 2016 19:28:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:28:41 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 589
+	Birth: Wed May 18 2016 19:28:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:28:54 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 590
+	Birth: Wed May 18 2016 19:28:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:29:03 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 591
+	Birth: Wed May 18 2016 19:29:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:29:22 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 592
+	Birth: Wed May 18 2016 19:29:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:29:37 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 593
+	Birth: Wed May 18 2016 19:29:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:29:42 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 594
+	Birth: Wed May 18 2016 19:29:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:29:47 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 595
+	Birth: Wed May 18 2016 19:29:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:29:55 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 596
+	Birth: Wed May 18 2016 19:29:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:30:09 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 597
+	Birth: Wed May 18 2016 19:30:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:30:51 GMT+0300 (Turkey Daylight Time) with Size: 44
+
+Trial No: 598
+	Birth: Wed May 18 2016 19:30:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:30:58 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 599
+	Birth: Wed May 18 2016 19:30:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:31:05 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 600
+	Birth: Wed May 18 2016 19:31:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:31:11 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 601
+	Birth: Wed May 18 2016 19:31:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:31:37 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 602
+	Birth: Wed May 18 2016 19:31:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:31:45 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 603
+	Birth: Wed May 18 2016 19:31:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:02 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 604
+	Birth: Wed May 18 2016 19:32:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:12 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 605
+	Birth: Wed May 18 2016 19:32:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:17 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 606
+	Birth: Wed May 18 2016 19:32:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:21 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 607
+	Birth: Wed May 18 2016 19:32:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:24 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 608
+	Birth: Wed May 18 2016 19:32:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:35 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 609
+	Birth: Wed May 18 2016 19:32:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:43 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 610
+	Birth: Wed May 18 2016 19:32:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:32:54 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 611
+	Birth: Wed May 18 2016 19:32:54 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 612
+	Birth: Wed May 18 2016 19:32:58 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:32:58 GMT+0300 (Turkey Daylight Time) with Size: 10
+Killed
+	Death: Wed May 18 2016 19:33:03 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 613
+	Birth: Wed May 18 2016 19:33:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:33:12 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 614
+	Birth: Wed May 18 2016 19:33:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:33:24 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 615
+	Birth: Wed May 18 2016 19:33:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:33:31 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 616
+	Birth: Wed May 18 2016 19:33:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:33:36 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 617
+	Birth: Wed May 18 2016 19:33:36 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 618
+	Birth: Wed May 18 2016 19:33:42 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:33:42 GMT+0300 (Turkey Daylight Time) with Size: 12
+Killed
+	Death: Wed May 18 2016 19:33:47 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 619
+	Birth: Wed May 18 2016 19:33:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:33:51 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 620
+	Birth: Wed May 18 2016 19:33:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:34:42 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 621
+	Birth: Wed May 18 2016 19:34:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:35:16 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 622
+	Birth: Wed May 18 2016 19:35:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:35:20 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 623
+	Birth: Wed May 18 2016 19:35:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:35:39 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 624
+	Birth: Wed May 18 2016 19:35:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:36:10 GMT+0300 (Turkey Daylight Time) with Size: 33
+
+Trial No: 625
+	Birth: Wed May 18 2016 19:36:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:36:19 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 626
+	Birth: Wed May 18 2016 19:36:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:36:22 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 627
+	Birth: Wed May 18 2016 19:36:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:36:31 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 628
+	Birth: Wed May 18 2016 19:36:31 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 629
+	Birth: Wed May 18 2016 19:36:39 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:36:39 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 19:36:49 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 630
+	Birth: Wed May 18 2016 19:36:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:00 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 631
+	Birth: Wed May 18 2016 19:37:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:05 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 632
+	Birth: Wed May 18 2016 19:37:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:09 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 633
+	Birth: Wed May 18 2016 19:37:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:13 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 634
+	Birth: Wed May 18 2016 19:37:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:16 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 635
+	Birth: Wed May 18 2016 19:37:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:20 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 636
+	Birth: Wed May 18 2016 19:37:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:30 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 637
+	Birth: Wed May 18 2016 19:37:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:41 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 638
+	Birth: Wed May 18 2016 19:37:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:51 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 639
+	Birth: Wed May 18 2016 19:37:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:37:56 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 640
+	Birth: Wed May 18 2016 19:37:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:03 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 641
+	Birth: Wed May 18 2016 19:38:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:12 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 642
+	Birth: Wed May 18 2016 19:38:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:16 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 643
+	Birth: Wed May 18 2016 19:38:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:25 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 644
+	Birth: Wed May 18 2016 19:38:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:32 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 645
+	Birth: Wed May 18 2016 19:38:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:38 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 646
+	Birth: Wed May 18 2016 19:38:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:43 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 647
+	Birth: Wed May 18 2016 19:38:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:49 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 648
+	Birth: Wed May 18 2016 19:38:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:38:55 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 649
+	Birth: Wed May 18 2016 19:38:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:39:07 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 650
+	Birth: Wed May 18 2016 19:39:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:39:18 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 651
+	Birth: Wed May 18 2016 19:39:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:39:31 GMT+0300 (Turkey Daylight Time) with Size: 28
+
+Trial No: 652
+	Birth: Wed May 18 2016 19:39:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:39:43 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 653
+	Birth: Wed May 18 2016 19:39:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:39:51 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 654
+	Birth: Wed May 18 2016 19:39:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:39:56 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 655
+	Birth: Wed May 18 2016 19:39:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:07 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 656
+	Birth: Wed May 18 2016 19:40:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:15 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 657
+	Birth: Wed May 18 2016 19:40:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:22 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 658
+	Birth: Wed May 18 2016 19:40:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:26 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 659
+	Birth: Wed May 18 2016 19:40:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:32 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 660
+	Birth: Wed May 18 2016 19:40:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:36 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 661
+	Birth: Wed May 18 2016 19:40:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:40:48 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 662
+	Birth: Wed May 18 2016 19:40:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:41:04 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 663
+	Birth: Wed May 18 2016 19:41:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:41:15 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 664
+	Birth: Wed May 18 2016 19:41:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:41:18 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 665
+	Birth: Wed May 18 2016 19:41:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:41:44 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 666
+	Birth: Wed May 18 2016 19:41:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:41:51 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 667
+	Birth: Wed May 18 2016 19:41:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:42:10 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 668
+	Birth: Wed May 18 2016 19:42:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:42:15 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 669
+	Birth: Wed May 18 2016 19:42:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:42:21 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 670
+	Birth: Wed May 18 2016 19:42:21 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:42:26 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 671
+	Birth: Wed May 18 2016 19:42:26 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 672
+	Birth: Wed May 18 2016 19:42:31 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:42:31 GMT+0300 (Turkey Daylight Time) with Size: 12
+Killed
+	Death: Wed May 18 2016 19:42:37 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 673
+	Birth: Wed May 18 2016 19:42:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:42:47 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 674
+	Birth: Wed May 18 2016 19:42:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:13 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 675
+	Birth: Wed May 18 2016 19:43:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:22 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 676
+	Birth: Wed May 18 2016 19:43:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:26 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 677
+	Birth: Wed May 18 2016 19:43:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:43 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 678
+	Birth: Wed May 18 2016 19:43:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:47 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 679
+	Birth: Wed May 18 2016 19:43:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:54 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 680
+	Birth: Wed May 18 2016 19:43:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:43:58 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 681
+	Birth: Wed May 18 2016 19:43:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:44:10 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 682
+	Birth: Wed May 18 2016 19:44:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:44:15 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 683
+	Birth: Wed May 18 2016 19:44:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:44:22 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 684
+	Birth: Wed May 18 2016 19:44:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:44:32 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 685
+	Birth: Wed May 18 2016 19:44:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:44:40 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 686
+	Birth: Wed May 18 2016 19:44:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:45:00 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 687
+	Birth: Wed May 18 2016 19:45:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:45:13 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 688
+	Birth: Wed May 18 2016 19:45:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:45:19 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 689
+	Birth: Wed May 18 2016 19:45:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:45:49 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 690
+	Birth: Wed May 18 2016 19:45:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:45:58 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 691
+	Birth: Wed May 18 2016 19:45:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:46:26 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 692
+	Birth: Wed May 18 2016 19:46:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:46:31 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 693
+	Birth: Wed May 18 2016 19:46:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:46:32 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 694
+	Birth: Wed May 18 2016 19:46:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:47:05 GMT+0300 (Turkey Daylight Time) with Size: 65
+
+Trial No: 695
+	Birth: Wed May 18 2016 19:47:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:47:36 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 696
+	Birth: Wed May 18 2016 19:47:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:47:51 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 697
+	Birth: Wed May 18 2016 19:47:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:47:55 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 698
+	Birth: Wed May 18 2016 19:47:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:02 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 699
+	Birth: Wed May 18 2016 19:48:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:06 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 700
+	Birth: Wed May 18 2016 19:48:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:13 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 701
+	Birth: Wed May 18 2016 19:48:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:26 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 702
+	Birth: Wed May 18 2016 19:48:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:39 GMT+0300 (Turkey Daylight Time) with Size: 33
+
+Trial No: 703
+	Birth: Wed May 18 2016 19:48:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:44 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 704
+	Birth: Wed May 18 2016 19:48:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:48:53 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 705
+	Birth: Wed May 18 2016 19:48:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:49:18 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 706
+	Birth: Wed May 18 2016 19:49:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:49:33 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 707
+	Birth: Wed May 18 2016 19:49:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:49:39 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 708
+	Birth: Wed May 18 2016 19:49:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:49:47 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 709
+	Birth: Wed May 18 2016 19:49:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:49:58 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 710
+	Birth: Wed May 18 2016 19:49:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:06 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 711
+	Birth: Wed May 18 2016 19:50:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:16 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 712
+	Birth: Wed May 18 2016 19:50:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:20 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 713
+	Birth: Wed May 18 2016 19:50:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:28 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 714
+	Birth: Wed May 18 2016 19:50:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:35 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 715
+	Birth: Wed May 18 2016 19:50:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:42 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 716
+	Birth: Wed May 18 2016 19:50:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:50:50 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 717
+	Birth: Wed May 18 2016 19:50:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:07 GMT+0300 (Turkey Daylight Time) with Size: 30
+
+Trial No: 718
+	Birth: Wed May 18 2016 19:51:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:17 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 719
+	Birth: Wed May 18 2016 19:51:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:22 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 720
+	Birth: Wed May 18 2016 19:51:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:27 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 721
+	Birth: Wed May 18 2016 19:51:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:37 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 722
+	Birth: Wed May 18 2016 19:51:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:45 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 723
+	Birth: Wed May 18 2016 19:51:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:51:49 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 724
+	Birth: Wed May 18 2016 19:51:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:52:01 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 725
+	Birth: Wed May 18 2016 19:52:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:52:04 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 726
+	Birth: Wed May 18 2016 19:52:04 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 727
+	Birth: Wed May 18 2016 19:52:19 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:52:19 GMT+0300 (Turkey Daylight Time) with Size: 28
+Killed
+	Death: Wed May 18 2016 19:52:25 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 728
+	Birth: Wed May 18 2016 19:52:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:52:32 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 729
+	Birth: Wed May 18 2016 19:52:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:52:41 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 730
+	Birth: Wed May 18 2016 19:52:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:52:48 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 731
+	Birth: Wed May 18 2016 19:52:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:01 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 732
+	Birth: Wed May 18 2016 19:53:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:16 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 733
+	Birth: Wed May 18 2016 19:53:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:22 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 734
+	Birth: Wed May 18 2016 19:53:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:34 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 735
+	Birth: Wed May 18 2016 19:53:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:38 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 736
+	Birth: Wed May 18 2016 19:53:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:44 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 737
+	Birth: Wed May 18 2016 19:53:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:47 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 738
+	Birth: Wed May 18 2016 19:53:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:53:53 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 739
+	Birth: Wed May 18 2016 19:53:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:54:03 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 740
+	Birth: Wed May 18 2016 19:54:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:54:07 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 741
+	Birth: Wed May 18 2016 19:54:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:54:14 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 742
+	Birth: Wed May 18 2016 19:54:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:54:18 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 743
+	Birth: Wed May 18 2016 19:54:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:54:25 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 744
+	Birth: Wed May 18 2016 19:54:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:54:30 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 745
+	Birth: Wed May 18 2016 19:54:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:55:08 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 746
+	Birth: Wed May 18 2016 19:55:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:55:17 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 747
+	Birth: Wed May 18 2016 19:55:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:55:32 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 748
+	Birth: Wed May 18 2016 19:55:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:55:38 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 749
+	Birth: Wed May 18 2016 19:55:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:55:46 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 750
+	Birth: Wed May 18 2016 19:55:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:55:53 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 751
+	Birth: Wed May 18 2016 19:55:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:56:00 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 752
+	Birth: Wed May 18 2016 19:56:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:56:10 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 753
+	Birth: Wed May 18 2016 19:56:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:56:18 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 754
+	Birth: Wed May 18 2016 19:56:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:56:22 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 755
+	Birth: Wed May 18 2016 19:56:22 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 756
+	Birth: Wed May 18 2016 19:56:25 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 19:56:25 GMT+0300 (Turkey Daylight Time) with Size: 10
+Killed
+	Death: Wed May 18 2016 19:56:33 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 757
+	Birth: Wed May 18 2016 19:56:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:56:40 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 758
+	Birth: Wed May 18 2016 19:56:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:16 GMT+0300 (Turkey Daylight Time) with Size: 37
+
+Trial No: 759
+	Birth: Wed May 18 2016 19:57:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:18 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 760
+	Birth: Wed May 18 2016 19:57:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:22 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 761
+	Birth: Wed May 18 2016 19:57:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:32 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 762
+	Birth: Wed May 18 2016 19:57:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:38 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 763
+	Birth: Wed May 18 2016 19:57:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:44 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 764
+	Birth: Wed May 18 2016 19:57:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:49 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 765
+	Birth: Wed May 18 2016 19:57:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:57:55 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 766
+	Birth: Wed May 18 2016 19:57:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:02 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 767
+	Birth: Wed May 18 2016 19:58:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:12 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 768
+	Birth: Wed May 18 2016 19:58:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:20 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 769
+	Birth: Wed May 18 2016 19:58:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:27 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 770
+	Birth: Wed May 18 2016 19:58:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:32 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 771
+	Birth: Wed May 18 2016 19:58:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:40 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 772
+	Birth: Wed May 18 2016 19:58:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:49 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 773
+	Birth: Wed May 18 2016 19:58:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:58:52 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 774
+	Birth: Wed May 18 2016 19:58:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:02 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 775
+	Birth: Wed May 18 2016 19:59:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:08 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 776
+	Birth: Wed May 18 2016 19:59:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:11 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 777
+	Birth: Wed May 18 2016 19:59:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:14 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 778
+	Birth: Wed May 18 2016 19:59:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:18 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 779
+	Birth: Wed May 18 2016 19:59:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:24 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 780
+	Birth: Wed May 18 2016 19:59:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:44 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 781
+	Birth: Wed May 18 2016 19:59:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 19:59:54 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 782
+	Birth: Wed May 18 2016 19:59:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:07 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 783
+	Birth: Wed May 18 2016 20:00:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:13 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 784
+	Birth: Wed May 18 2016 20:00:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:27 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 785
+	Birth: Wed May 18 2016 20:00:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:32 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 786
+	Birth: Wed May 18 2016 20:00:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:42 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 787
+	Birth: Wed May 18 2016 20:00:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:45 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 788
+	Birth: Wed May 18 2016 20:00:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:00:54 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 789
+	Birth: Wed May 18 2016 20:00:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:02 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 790
+	Birth: Wed May 18 2016 20:01:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:10 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 791
+	Birth: Wed May 18 2016 20:01:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:18 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 792
+	Birth: Wed May 18 2016 20:01:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:22 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 793
+	Birth: Wed May 18 2016 20:01:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:32 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 794
+	Birth: Wed May 18 2016 20:01:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:37 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 795
+	Birth: Wed May 18 2016 20:01:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:47 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 796
+	Birth: Wed May 18 2016 20:01:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:01:52 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 797
+	Birth: Wed May 18 2016 20:01:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:01 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 798
+	Birth: Wed May 18 2016 20:02:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:17 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 799
+	Birth: Wed May 18 2016 20:02:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:20 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 800
+	Birth: Wed May 18 2016 20:02:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:27 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 801
+	Birth: Wed May 18 2016 20:02:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:37 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 802
+	Birth: Wed May 18 2016 20:02:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:51 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 803
+	Birth: Wed May 18 2016 20:02:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:02:59 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 804
+	Birth: Wed May 18 2016 20:02:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:03 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 805
+	Birth: Wed May 18 2016 20:03:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:10 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 806
+	Birth: Wed May 18 2016 20:03:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:18 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 807
+	Birth: Wed May 18 2016 20:03:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:32 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 808
+	Birth: Wed May 18 2016 20:03:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:38 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 809
+	Birth: Wed May 18 2016 20:03:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:42 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 810
+	Birth: Wed May 18 2016 20:03:42 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:03:51 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 811
+	Birth: Wed May 18 2016 20:03:51 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 812
+	Birth: Wed May 18 2016 20:03:56 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 20:03:56 GMT+0300 (Turkey Daylight Time) with Size: 14
+Killed
+	Death: Wed May 18 2016 20:04:08 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 813
+	Birth: Wed May 18 2016 20:04:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:04:18 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 814
+	Birth: Wed May 18 2016 20:04:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:04 GMT+0300 (Turkey Daylight Time) with Size: 54
+
+Trial No: 815
+	Birth: Wed May 18 2016 20:05:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:10 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 816
+	Birth: Wed May 18 2016 20:05:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:16 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 817
+	Birth: Wed May 18 2016 20:05:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:24 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 818
+	Birth: Wed May 18 2016 20:05:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:40 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 819
+	Birth: Wed May 18 2016 20:05:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:48 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 820
+	Birth: Wed May 18 2016 20:05:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:05:54 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 821
+	Birth: Wed May 18 2016 20:05:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:00 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 822
+	Birth: Wed May 18 2016 20:06:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:05 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 823
+	Birth: Wed May 18 2016 20:06:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:17 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 824
+	Birth: Wed May 18 2016 20:06:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:25 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 825
+	Birth: Wed May 18 2016 20:06:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:34 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 826
+	Birth: Wed May 18 2016 20:06:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:46 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 827
+	Birth: Wed May 18 2016 20:06:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:54 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 828
+	Birth: Wed May 18 2016 20:06:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:06:59 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 829
+	Birth: Wed May 18 2016 20:06:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:07:03 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 830
+	Birth: Wed May 18 2016 20:07:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:07:10 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 831
+	Birth: Wed May 18 2016 20:07:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:07:24 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 832
+	Birth: Wed May 18 2016 20:07:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:07:32 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 833
+	Birth: Wed May 18 2016 20:07:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:07:39 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 834
+	Birth: Wed May 18 2016 20:07:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:07:50 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 835
+	Birth: Wed May 18 2016 20:07:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:03 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 836
+	Birth: Wed May 18 2016 20:08:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:08 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 837
+	Birth: Wed May 18 2016 20:08:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:23 GMT+0300 (Turkey Daylight Time) with Size: 33
+
+Trial No: 838
+	Birth: Wed May 18 2016 20:08:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:28 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 839
+	Birth: Wed May 18 2016 20:08:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:33 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 840
+	Birth: Wed May 18 2016 20:08:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:41 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 841
+	Birth: Wed May 18 2016 20:08:41 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:49 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 842
+	Birth: Wed May 18 2016 20:08:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:08:55 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 843
+	Birth: Wed May 18 2016 20:08:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:09:00 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 844
+	Birth: Wed May 18 2016 20:09:00 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 845
+	Birth: Wed May 18 2016 20:09:05 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 20:09:05 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 20:09:14 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 846
+	Birth: Wed May 18 2016 20:09:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:09:19 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 847
+	Birth: Wed May 18 2016 20:09:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:09:25 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 848
+	Birth: Wed May 18 2016 20:09:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:09:36 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 849
+	Birth: Wed May 18 2016 20:09:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:09:55 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 850
+	Birth: Wed May 18 2016 20:09:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:02 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 851
+	Birth: Wed May 18 2016 20:10:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:11 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 852
+	Birth: Wed May 18 2016 20:10:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:15 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 853
+	Birth: Wed May 18 2016 20:10:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:25 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 854
+	Birth: Wed May 18 2016 20:10:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:30 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 855
+	Birth: Wed May 18 2016 20:10:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:48 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 856
+	Birth: Wed May 18 2016 20:10:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:53 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 857
+	Birth: Wed May 18 2016 20:10:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:10:57 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 858
+	Birth: Wed May 18 2016 20:10:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:11:05 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 859
+	Birth: Wed May 18 2016 20:11:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:11:14 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 860
+	Birth: Wed May 18 2016 20:11:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:11:22 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 861
+	Birth: Wed May 18 2016 20:11:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:11:28 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 862
+	Birth: Wed May 18 2016 20:11:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:11:33 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 863
+	Birth: Wed May 18 2016 20:11:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:11:56 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 864
+	Birth: Wed May 18 2016 20:11:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:12:02 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 865
+	Birth: Wed May 18 2016 20:12:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:12:05 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 866
+	Birth: Wed May 18 2016 20:12:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:12:28 GMT+0300 (Turkey Daylight Time) with Size: 24
+
+Trial No: 867
+	Birth: Wed May 18 2016 20:12:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:12:33 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 868
+	Birth: Wed May 18 2016 20:12:33 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:12:46 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 869
+	Birth: Wed May 18 2016 20:12:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:12:55 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 870
+	Birth: Wed May 18 2016 20:12:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:13:03 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 871
+	Birth: Wed May 18 2016 20:13:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:13:07 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 872
+	Birth: Wed May 18 2016 20:13:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:13:14 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 873
+	Birth: Wed May 18 2016 20:13:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:13:28 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 874
+	Birth: Wed May 18 2016 20:13:28 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 875
+	Birth: Wed May 18 2016 20:13:33 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 20:13:33 GMT+0300 (Turkey Daylight Time) with Size: 11
+Killed
+	Death: Wed May 18 2016 20:14:06 GMT+0300 (Turkey Daylight Time) with Size: 41
+
+Trial No: 876
+	Birth: Wed May 18 2016 20:14:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:14:14 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 877
+	Birth: Wed May 18 2016 20:14:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:14:24 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 878
+	Birth: Wed May 18 2016 20:14:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:14:29 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 879
+	Birth: Wed May 18 2016 20:14:29 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:14:38 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 880
+	Birth: Wed May 18 2016 20:14:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:14:46 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 881
+	Birth: Wed May 18 2016 20:14:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:14:52 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 882
+	Birth: Wed May 18 2016 20:14:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:15:03 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 883
+	Birth: Wed May 18 2016 20:15:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:15:40 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 884
+	Birth: Wed May 18 2016 20:15:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:15:50 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 885
+	Birth: Wed May 18 2016 20:15:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:15:56 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 886
+	Birth: Wed May 18 2016 20:15:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:16:05 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 887
+	Birth: Wed May 18 2016 20:16:05 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:17:40 GMT+0300 (Turkey Daylight Time) with Size: 66
+
+Trial No: 888
+	Birth: Wed May 18 2016 20:17:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:17:44 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 889
+	Birth: Wed May 18 2016 20:17:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:17:49 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 890
+	Birth: Wed May 18 2016 20:17:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:07 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 891
+	Birth: Wed May 18 2016 20:18:07 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:15 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 892
+	Birth: Wed May 18 2016 20:18:15 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:22 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 893
+	Birth: Wed May 18 2016 20:18:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:36 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 894
+	Birth: Wed May 18 2016 20:18:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:46 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 895
+	Birth: Wed May 18 2016 20:18:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:48 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 896
+	Birth: Wed May 18 2016 20:18:48 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:54 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 897
+	Birth: Wed May 18 2016 20:18:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:18:58 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 898
+	Birth: Wed May 18 2016 20:18:58 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 899
+	Birth: Wed May 18 2016 20:19:23 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 20:19:23 GMT+0300 (Turkey Daylight Time) with Size: 26
+Killed
+	Death: Wed May 18 2016 20:19:32 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 900
+	Birth: Wed May 18 2016 20:19:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:19:39 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 901
+	Birth: Wed May 18 2016 20:19:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:19:45 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 902
+	Birth: Wed May 18 2016 20:19:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:19:59 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 903
+	Birth: Wed May 18 2016 20:19:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:03 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 904
+	Birth: Wed May 18 2016 20:20:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:18 GMT+0300 (Turkey Daylight Time) with Size: 19
+
+Trial No: 905
+	Birth: Wed May 18 2016 20:20:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:23 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 906
+	Birth: Wed May 18 2016 20:20:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:36 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 907
+	Birth: Wed May 18 2016 20:20:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:47 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 908
+	Birth: Wed May 18 2016 20:20:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:50 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 909
+	Birth: Wed May 18 2016 20:20:50 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:20:59 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 910
+	Birth: Wed May 18 2016 20:20:59 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:04 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 911
+	Birth: Wed May 18 2016 20:21:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:13 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 912
+	Birth: Wed May 18 2016 20:21:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:18 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 913
+	Birth: Wed May 18 2016 20:21:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:27 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 914
+	Birth: Wed May 18 2016 20:21:27 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:34 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 915
+	Birth: Wed May 18 2016 20:21:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:44 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 916
+	Birth: Wed May 18 2016 20:21:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:49 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 917
+	Birth: Wed May 18 2016 20:21:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:21:52 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 918
+	Birth: Wed May 18 2016 20:21:52 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:02 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 919
+	Birth: Wed May 18 2016 20:22:02 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:06 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 920
+	Birth: Wed May 18 2016 20:22:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:12 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 921
+	Birth: Wed May 18 2016 20:22:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:20 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 922
+	Birth: Wed May 18 2016 20:22:20 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:25 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 923
+	Birth: Wed May 18 2016 20:22:25 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:31 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 924
+	Birth: Wed May 18 2016 20:22:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:46 GMT+0300 (Turkey Daylight Time) with Size: 20
+
+Trial No: 925
+	Birth: Wed May 18 2016 20:22:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:22:54 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 926
+	Birth: Wed May 18 2016 20:22:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:23:06 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 927
+	Birth: Wed May 18 2016 20:23:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:23:10 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 928
+	Birth: Wed May 18 2016 20:23:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:23:17 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 929
+	Birth: Wed May 18 2016 20:23:17 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:23:31 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 930
+	Birth: Wed May 18 2016 20:23:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:23:37 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 931
+	Birth: Wed May 18 2016 20:23:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:23:47 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 932
+	Birth: Wed May 18 2016 20:23:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:24:22 GMT+0300 (Turkey Daylight Time) with Size: 29
+
+Trial No: 933
+	Birth: Wed May 18 2016 20:24:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:24:31 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 934
+	Birth: Wed May 18 2016 20:24:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:25:31 GMT+0300 (Turkey Daylight Time) with Size: 40
+
+Trial No: 935
+	Birth: Wed May 18 2016 20:25:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:25:44 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 936
+	Birth: Wed May 18 2016 20:25:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:25:56 GMT+0300 (Turkey Daylight Time) with Size: 22
+
+Trial No: 937
+	Birth: Wed May 18 2016 20:25:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:26:22 GMT+0300 (Turkey Daylight Time) with Size: 38
+
+Trial No: 938
+	Birth: Wed May 18 2016 20:26:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:27:18 GMT+0300 (Turkey Daylight Time) with Size: 44
+
+Trial No: 939
+	Birth: Wed May 18 2016 20:27:18 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:27:26 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 940
+	Birth: Wed May 18 2016 20:27:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:27:31 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 941
+	Birth: Wed May 18 2016 20:27:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:27:35 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 942
+	Birth: Wed May 18 2016 20:27:35 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:27:43 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 943
+	Birth: Wed May 18 2016 20:27:43 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:27:57 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 944
+	Birth: Wed May 18 2016 20:27:57 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:28:06 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 945
+	Birth: Wed May 18 2016 20:28:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:28:58 GMT+0300 (Turkey Daylight Time) with Size: 43
+
+Trial No: 946
+	Birth: Wed May 18 2016 20:28:58 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:29:03 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 947
+	Birth: Wed May 18 2016 20:29:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:29:12 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 948
+	Birth: Wed May 18 2016 20:29:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:29:19 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 949
+	Birth: Wed May 18 2016 20:29:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:29:40 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 950
+	Birth: Wed May 18 2016 20:29:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:29:46 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 951
+	Birth: Wed May 18 2016 20:29:46 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:29:54 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 952
+	Birth: Wed May 18 2016 20:29:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:30:01 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 953
+	Birth: Wed May 18 2016 20:30:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:30:11 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 954
+	Birth: Wed May 18 2016 20:30:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:30:36 GMT+0300 (Turkey Daylight Time) with Size: 36
+
+Trial No: 955
+	Birth: Wed May 18 2016 20:30:36 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:30:39 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 956
+	Birth: Wed May 18 2016 20:30:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:30:51 GMT+0300 (Turkey Daylight Time) with Size: 21
+
+Trial No: 957
+	Birth: Wed May 18 2016 20:30:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:30:56 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 958
+	Birth: Wed May 18 2016 20:30:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:31:03 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 959
+	Birth: Wed May 18 2016 20:31:03 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:31:16 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 960
+	Birth: Wed May 18 2016 20:31:16 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:31:23 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 961
+	Birth: Wed May 18 2016 20:31:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:31:37 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 962
+	Birth: Wed May 18 2016 20:31:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:31:47 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 963
+	Birth: Wed May 18 2016 20:31:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:31:53 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 964
+	Birth: Wed May 18 2016 20:31:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:00 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 965
+	Birth: Wed May 18 2016 20:32:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:06 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 966
+	Birth: Wed May 18 2016 20:32:06 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:09 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 967
+	Birth: Wed May 18 2016 20:32:09 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:13 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 968
+	Birth: Wed May 18 2016 20:32:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:24 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 969
+	Birth: Wed May 18 2016 20:32:24 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:32 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 970
+	Birth: Wed May 18 2016 20:32:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:32:37 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 971
+	Birth: Wed May 18 2016 20:32:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:33:19 GMT+0300 (Turkey Daylight Time) with Size: 40
+
+Trial No: 972
+	Birth: Wed May 18 2016 20:33:19 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:33:26 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 973
+	Birth: Wed May 18 2016 20:33:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:33:31 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 974
+	Birth: Wed May 18 2016 20:33:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:33:40 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 975
+	Birth: Wed May 18 2016 20:33:40 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:33:47 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 976
+	Birth: Wed May 18 2016 20:33:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:34:07 GMT+0300 (Turkey Daylight Time) with Size: 31
+
+Trial No: 977
+	Birth: Wed May 18 2016 20:34:07 GMT+0300 (Turkey Daylight Time)
+Killed
+
+Trial No: 978
+	Birth: Wed May 18 2016 20:34:14 GMT+0300 (Turkey Daylight Time)
+	Death: Wed May 18 2016 20:34:14 GMT+0300 (Turkey Daylight Time) with Size: 16
+Killed
+	Death: Wed May 18 2016 20:34:23 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 979
+	Birth: Wed May 18 2016 20:34:23 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:34:30 GMT+0300 (Turkey Daylight Time) with Size: 14
+
+Trial No: 980
+	Birth: Wed May 18 2016 20:34:30 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:34:45 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 981
+	Birth: Wed May 18 2016 20:34:45 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:34:51 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 982
+	Birth: Wed May 18 2016 20:34:51 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:34:56 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 983
+	Birth: Wed May 18 2016 20:34:56 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:35:01 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 984
+	Birth: Wed May 18 2016 20:35:01 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:35:14 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 985
+	Birth: Wed May 18 2016 20:35:14 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:35:26 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 986
+	Birth: Wed May 18 2016 20:35:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:35:31 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 987
+	Birth: Wed May 18 2016 20:35:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:36:54 GMT+0300 (Turkey Daylight Time) with Size: 78
+
+Trial No: 988
+	Birth: Wed May 18 2016 20:36:54 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:37:00 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 989
+	Birth: Wed May 18 2016 20:37:00 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:37:11 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 990
+	Birth: Wed May 18 2016 20:37:11 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:37:26 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 991
+	Birth: Wed May 18 2016 20:37:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:37:31 GMT+0300 (Turkey Daylight Time) with Size: 15
+
+Trial No: 992
+	Birth: Wed May 18 2016 20:37:31 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:37:44 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 993
+	Birth: Wed May 18 2016 20:37:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:37:55 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 994
+	Birth: Wed May 18 2016 20:37:55 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:38:12 GMT+0300 (Turkey Daylight Time) with Size: 27
+
+Trial No: 995
+	Birth: Wed May 18 2016 20:38:12 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:38:26 GMT+0300 (Turkey Daylight Time) with Size: 25
+
+Trial No: 996
+	Birth: Wed May 18 2016 20:38:26 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:38:32 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 997
+	Birth: Wed May 18 2016 20:38:32 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:38:37 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 998
+	Birth: Wed May 18 2016 20:38:37 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:38:49 GMT+0300 (Turkey Daylight Time) with Size: 17
+
+Trial No: 999
+	Birth: Wed May 18 2016 20:38:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:08 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 1000
+	Birth: Wed May 18 2016 20:39:08 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:13 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 1001
+	Birth: Wed May 18 2016 20:39:13 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:22 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 1002
+	Birth: Wed May 18 2016 20:39:22 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:28 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 1003
+	Birth: Wed May 18 2016 20:39:28 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:34 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 1004
+	Birth: Wed May 18 2016 20:39:34 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:39 GMT+0300 (Turkey Daylight Time) with Size: 11
+
+Trial No: 1005
+	Birth: Wed May 18 2016 20:39:39 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:49 GMT+0300 (Turkey Daylight Time) with Size: 23
+
+Trial No: 1006
+	Birth: Wed May 18 2016 20:39:49 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:39:53 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 1007
+	Birth: Wed May 18 2016 20:39:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:40:04 GMT+0300 (Turkey Daylight Time) with Size: 18
+
+Trial No: 1008
+	Birth: Wed May 18 2016 20:40:04 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:40:10 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 1009
+	Birth: Wed May 18 2016 20:40:10 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 20:40:34 GMT+0300 (Turkey Daylight Time) with Size: 26
+
+Trial No: 1010
+	Birth: Wed May 18 2016 21:10:38 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 21:10:44 GMT+0300 (Turkey Daylight Time) with Size: 13
+
+Trial No: 1011
+	Birth: Wed May 18 2016 21:10:44 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 21:10:47 GMT+0300 (Turkey Daylight Time) with Size: 10
+
+Trial No: 1012
+	Birth: Wed May 18 2016 21:10:47 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 21:10:53 GMT+0300 (Turkey Daylight Time) with Size: 12
+
+Trial No: 1013
+	Birth: Wed May 18 2016 21:10:53 GMT+0300 (Turkey Daylight Time)
+Killed
+	Death: Wed May 18 2016 21:11:03 GMT+0300 (Turkey Daylight Time) with Size: 16
+
+Trial No: 1014
+	Birth: Wed May 18 2016 21:11:03 GMT+0300 (Turkey Daylight Time)
