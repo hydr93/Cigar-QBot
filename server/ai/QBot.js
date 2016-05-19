@@ -11,7 +11,7 @@ var Reinforce = require("Reinforcejs");
 var fs = require("fs");
 const JSON_FILE = "./server/ai/json";
 
-const REPORT_FILE = "./server/ai/Reports/report2.txt";
+const REPORT_FILE = "./server/ai/Reports/report3.txt";
 
 // Number of tries till the cell gets to the TRIAL_RESET_MASS
 var trial = 1;
