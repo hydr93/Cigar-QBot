@@ -65,8 +65,8 @@ function QBot() {
     var spec = {
         update: 'qlearn',
         gamma: 0.9,
-        epsilon: 0.02,
-        alpha: 0.01,
+        epsilon: 0.2,
+        alpha: 0.1,
         experience_add_every: 10,
         experience_size: 5000,
         learning_steps_per_iteration: 20,
@@ -85,11 +85,11 @@ function QBot() {
     }
 
     // Report the important information to REPORT_FILE
-    fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
+    // fs.appendFile(REPORT_FILE, "Test 1, No Virus, No Enemy:\n\nNumber of Inputs: "+env.getNumStates()+"\nNumber of Actions: "+env.getMaxNumActions()+"\nNumber of Hidden Units: "+spec.num_hidden_units+"\n");
     var date = new Date();
     // "Position\n\t\tX\n\t\tY\n\t"
-    fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\n\t"+ THREAT_NO +" Threat\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\n\t"+ PREY_NO +" Prey\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\nActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n");
-    fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
+    // fs.appendFile(REPORT_FILE, "\nStates:\n\t"+ FOOD_NO +" Food\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\n\t"+ THREAT_NO +" Threat\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\n\t"+ PREY_NO +" Prey\n\t\tEnable\n\t\tX Difference\n\t\tY Difference\nActions:\n\tWalk\n\t\t"+ DIRECTION_COUNT +" Directions\n");
+    // fs.appendFile(REPORT_FILE, "\nTrial Reset Mass: "+TRIAL_RESET_MASS+"\n");
     fs.appendFile(REPORT_FILE, "\nTrial No: "+ trial++ +"\n\tBirth: "+date+"\n");
 
     this.shouldUpdateQNetwork = false;
