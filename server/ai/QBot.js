@@ -36,7 +36,7 @@ const MAX_ANGLE = Math.PI;
 const MAX_MASS_DIFFERENCE_RATIO = 20;
 
 const MAX_CELL_IN_DIRECTION = 1;
-const DIRECTION_COUNT = 8;
+const DIRECTION_COUNT = 4;
 
 function QBot() {
     PlayerTracker.apply(this, Array.prototype.slice.call(arguments));
