@@ -27,6 +27,15 @@ sh install_modules.sh
 
 And on windows it would running the install_modules.bat file.
 
+-Haydar-
+
+In order to perfectly run the bot, the ReinforceJS Library should be added manually.
+
+You can download it from my dropbox account: https://www.dropbox.com/sh/gh8jp57oy1orvun/AAAH1PQAaRiYquqLGo4owUqWa?dl=0
+Afterwards, this file should be added to "./server/node_modules/", so there will be such a folder "./server/node_modules/Reinforcejs"
+
+-Haydar-
+
 Now once you have done that, you can run the masterServer or just the gameservers by selecting the right file for your OS and choice of use.
 
 Currently, Cigar listens on the following addresses and ports (by default):
